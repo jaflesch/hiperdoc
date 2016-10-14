@@ -1,0 +1,6 @@
+Quais os respectivos tipos associados aos valores 4 e 'c' ?
+>>int e char
+>>float e char 
+>>char e int
+>>ambos float
+;;A resposta correta é int e char, pois 4 é um numero inteiro (int) e 'c', char por ser um caractere (indicado por estar entre '' ).

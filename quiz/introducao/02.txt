@@ -1,0 +1,6 @@
+Caso desejemos imprimir o número PI, salvo na variável pi, com duas casas após a vírgula, com o comando printf(), como devemos escrever a função?
+>>printf("%.2f", pi);
+>>printf("%2f", pi);
+>>printf("%f", pi);
+>>printf("%f.2", pi);
+;;Por padrão, "%f", imprime o valor de um número real. Para configurarmos a impressão, utilizamos o seguinte formato "%[casas_antes_vírgula][.][casas_depois_vírgula]f". Para o exercício proposto, "%.2f" bastaria. Caso quiséssemos PI com duas casas antes e três depois, escreveríamos "%2.3f" e assim por diante.
