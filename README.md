@@ -30,5 +30,6 @@ em suma, uma bosta..
 
 Para padronizar, manter apenas 4 respostas por questão, sendo a primeira a correta. (O programa randomiza depois)
 
-
+# Sites de referência
+Site antigo (base) http://inf.ufrgs.br/~jaflesch/inf01040/ e o novo: http://inf.ufrgs.br/~jaflesch/hiperdoc
 
