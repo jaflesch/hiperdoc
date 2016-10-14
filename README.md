@@ -21,11 +21,12 @@ em suma, uma bosta..
 - Crie um arquivo .txt seguindo a ordem 01, 02... (para padronizar)
 - Dentro do arquivo, estruture-o da seguinte forma:
 
-[titulo : pode ter quantas linhas quiser]
-[resposta1: uma linha começando com os caracteres ">>"]
-...
-[respostaN: uma linha começando com os caracteres ">>"]
-[explicação: quantas linhas quiser começando com os caracteres ";;"]
+# Formato arquivo
+- [titulo : pode ter quantas linhas quiser]
+- [resposta1: uma linha começando com os caracteres ">>"]
+- ...
+- [respostaN: uma linha começando com os caracteres ">>"]
+- [explicação: quantas linhas quiser começando com os caracteres ";;"]
 
 Para padronizar, manter apenas 4 respostas por questão, sendo a primeira a correta. (O programa randomiza depois)
 
