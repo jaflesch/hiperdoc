@@ -16,10 +16,10 @@ em suma, uma bosta..
 - Implementei um sistema que cria dinamicamente questões para um quiz online.
 
 - Para criar uma questão:
--- Vá na pasta 'quiz'
--- Acesse uma subpasta (cada subpasta equivale a um tópico do site [ex.: introdução, string, matrizes... ] )
--- Crie um arquivo .txt seguindo a ordem 01, 02... (para padronizar)
--- Dentro do arquivo, estruture-o da seguinte forma:
+- Vá na pasta 'quiz'
+- Acesse uma subpasta (cada subpasta equivale a um tópico do site [ex.: introdução, string, matrizes... ] )
+- Crie um arquivo .txt seguindo a ordem 01, 02... (para padronizar)
+- Dentro do arquivo, estruture-o da seguinte forma:
 
 [titulo : pode ter quantas linhas quiser]
 [resposta1: uma linha começando com os caracteres ">>"]
