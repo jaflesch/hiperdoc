@@ -95,6 +95,23 @@ p.links a i {
 p.links a.pull-right i { margin-left: 5px; }
 p.links a.pull-left i { margin-right: 5px; }
 
+/* table */
+table.operator {
+    margin: 25px auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.operator td.operator {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Consolas', Courier,monospace;
+    background-color: #e0e0e0;
+    border: 1px solid #828282;
+}
+.operator #blank { background-color: #828282; }
+.operator #symbol { color: #f75964; }
+.operator .result { color: #2980b9; }
 /* lists */
 ul.material-list {
 	list-style: none;
