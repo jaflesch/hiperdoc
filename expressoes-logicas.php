@@ -198,6 +198,7 @@
 				</div>
 			</div>
 		</div>
+	</section>
 	<section id="#if">
 		<div class="container">
 			<div class="row">
