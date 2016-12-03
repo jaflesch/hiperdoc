@@ -1,0 +1,6 @@
+Qual a diferença de while para do.. while ?
+>>do.. while executa primeiro e testa depois
+>>while não tem condição de parada
+>>do.. while pode executar nenhuma iteração
+>>while executa sempre uma iteração
+;;Lembres-se: faça ... enquanto (condição). Primeiro nos preocupamos com fazer algo para depois testar se fazemos de novo. While é o contrário!

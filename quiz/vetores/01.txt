@@ -1,0 +1,6 @@
+Dado o vetor [0,5,2,6], qual o conteúdo deste na posição 2?
+>>2
+>>5
+>>0
+>>6
+;;Em C, os índices começam em 0. Logo, vetor[2] é o terceiro elemento, no caso, 2.

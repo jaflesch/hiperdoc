@@ -1,0 +1,6 @@
+O for é mais indicado quando
+>>Sabemos o número exato de iterações
+>>Não sabemos o número exato de iterações
+>>Sempre
+>>Quando não há motivo para parada
+;;Sempre que sabemos, tanto é que no escopo já definimos for(de; até; ...).

@@ -1,0 +1,6 @@
+As três estruturas de repetição podem ser simuladas com qualquer uma destas.
+>>Sim
+>>Não
+>>Depende da situação
+>>Não, pois o for não pode ser interrompido
+;;Sim, pode. No entanto, são necessários mecanismos de forçar a parada no for com o break, por exemplo.

@@ -6,7 +6,14 @@ class Quiz {
 			case 'expressoes-aritmeticas': return utf8_encode("2. Expressões Aritméticas");
 			case 'expressoes-logicas': return utf8_encode("3. Expressões Lógicas");
 			case 'switch': return utf8_encode("4. Switch");
-			case 'lacos': return utf8_encode("5. Laços");
+			case 'lacos': return utf8_encode("5. Laços Iterativos");
+			case 'vetores': return utf8_encode("6. Vetores");
+			case 'strings': return utf8_encode("5. Laços Iterativos");
+			case 'matrizes': return utf8_encode("5. Laços Iterativos");
+			case 'rand': return utf8_encode("5. Laços Iterativos");
+			case 'bubblesort': return utf8_encode("5. Laços Iterativos");
+			case 'funcoes': return utf8_encode("5. Laços Iterativos");
+			case 'recursao': return utf8_encode("5. Laços Iterativos");
 		}
 	}
 	
