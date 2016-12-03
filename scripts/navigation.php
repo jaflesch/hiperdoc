@@ -102,21 +102,32 @@ class Navigation {
 					<i class='fa fa-2x fa-angle-left'></i>
 				</a>
 				<span class='navbar-vhr'></span>
-				<a class='navbar-brand' href='bubblesort.php'>
+				<a class='navbar-brand' href='funcao-rand.php'>
 					<i class='fa fa-2x fa-angle-right'></i>
 				</a>
 				<span class='navbar-description'> 8. Matrizes </span>
 				");
-			case 'bubblesort':
+			case 'rand':
 				return utf8_encode(
 				"<a class='navbar-brand' href='matrizes.php'>
+					<i class='fa fa-2x fa-angle-left'></i>
+				</a>
+				<span class='navbar-vhr'></span>
+				<a class='navbar-brand' href='bubblesort.php'>
+					<i class='fa fa-2x fa-angle-right'></i>
+				</a>
+				<span class='navbar-description'> 9. Função rand() </span>
+				");				
+			case 'bubblesort':
+				return utf8_encode(
+				"<a class='navbar-brand' href='funcao-rand.php'>
 					<i class='fa fa-2x fa-angle-left'></i>
 				</a>
 				<span class='navbar-vhr'></span>
 				<a class='navbar-brand' href='funcoes.php'>
 					<i class='fa fa-2x fa-angle-right'></i>
 				</a>
-				<span class='navbar-description'> 9. Bubblesort </span>
+				<span class='navbar-description'> 10. Bubblesort </span>
 				");
 			case 'funcoes':
 				return utf8_encode(
@@ -124,66 +135,24 @@ class Navigation {
 					<i class='fa fa-2x fa-angle-left'></i>
 				</a>
 				<span class='navbar-vhr'></span>
-				<a class='navbar-brand' href='ponteiros.php'>
-					<i class='fa fa-2x fa-angle-right'></i>
-				</a>
-				<span class='navbar-description'> 10. Funções </span>
-				");
-			case 'ponteiros':
-				return utf8_encode(
-				"<a class='navbar-brand' href='funcoes.php'>
-					<i class='fa fa-2x fa-angle-left'></i>
-				</a>
-				<span class='navbar-vhr'></span>
-				<a class='navbar-brand' href='estruturas.php'>
-					<i class='fa fa-2x fa-angle-right'></i>
-				</a>
-				<span class='navbar-description'> 11. Ponteiros </span>
-				");
-			case 'estruturas':
-				return utf8_encode(
-				"<a class='navbar-brand' href='ponteiros.php'>
-					<i class='fa fa-2x fa-angle-left'></i>
-				</a>
-				<span class='navbar-vhr'></span>
-				<a class='navbar-brand' href='arquivos.php'>
-					<i class='fa fa-2x fa-angle-right'></i>
-				</a>
-				<span class='navbar-description'> 12. Estruturas </span>
-				");
-			case 'arquivos':
-				return utf8_encode(
-				"<a class='navbar-brand' href='estruturas.php'>
-					<i class='fa fa-2x fa-angle-left'></i>
-				</a>
-				<span class='navbar-vhr'></span>
 				<a class='navbar-brand' href='recursao.php'>
 					<i class='fa fa-2x fa-angle-right'></i>
 				</a>
-				<span class='navbar-description'> 13. Arquivos </span>
+				<span class='navbar-description'> 11. Funções </span>
 				");
 			case 'recursao':
 				return utf8_encode(
-				"<a class='navbar-brand' href='arquivos.php'>
-					<i class='fa fa-2x fa-angle-left'></i>
-				</a>
-				<span class='navbar-vhr'></span>
-				<a class='navbar-brand' href='funcao-rand.php'>
-					<i class='fa fa-2x fa-angle-right'></i>
-				</a>
-				<span class='navbar-description'> 14. Recursão </span>
-				");
-			case 'rand':
-				return utf8_encode(
-				"<a class='navbar-brand' href='recursao.php'>
+				"<a class='navbar-brand' href='funcoes.php'>
 					<i class='fa fa-2x fa-angle-left'></i>
 				</a>
 				<span class='navbar-vhr'></span>
 				<a class='navbar-brand' href='index.php'>
 					<i class='fa fa-2x fa-angle-right'></i>
 				</a>
-				<span class='navbar-description'> 15. Função rand() </span>
+				<span class='navbar-description'> 12. Recursão </span>
 				");
+			
+
 			// customize for every page...
 			
 			// quiz
