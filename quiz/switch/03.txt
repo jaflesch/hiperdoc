@@ -1,0 +1,6 @@
+O case pode ser usado com valores de que tipo?
+>>Todos
+>>Apenas int
+>>Apenas char
+>>Todos, menos float
+;;A condição pode ser testada com qualquer tipo, igual ao if/else. Não há restrição de tipo.

@@ -1,0 +1,6 @@
+O comando switch sempre utiliza qual(ais) outra(s) palavra(s) para a instrução ocorrer corretamente?
+>>case
+>>break
+>>case e break
+>>Ele funciona corretamente apenas com switch
+;;Case é usado para a condição, mas o break não precisa existir para funcionar. Se tivermos apenas uma condição ou duas ou mais que sempre farão a mesma coisa (por mais ilógico que seja) não há necessidade de break.

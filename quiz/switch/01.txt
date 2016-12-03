@@ -1,0 +1,6 @@
+Quando é mais indicado o uso de if/else aninhados ao invés de switch?
+>>Quando trabalhamos com intervalos
+>>Sempre
+>>Nunca
+>>Quando trabalhamos com constantes
+;;Para usar switch em intervalos, teríamos de escrever um case para cada valor possível, o que pode ser muito trabalhoso.

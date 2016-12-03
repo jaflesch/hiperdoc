@@ -1,0 +1,6 @@
+Se quisermos diminuir uma unidade de uma variável, qual o melhor comando das opções abaixo?
+>>variavel--;
+>>variavel - 1;
+>>dec(variavel);
+>>variavel = -1;
+;;Vale lembrar que --variavel ou variavel = variavel -1; também funcionam!

@@ -1,0 +1,6 @@
+Em lógica, qual o retorno de (TRUE and FALSE) or (TRUE or FALSE)
+>>TRUE
+>>FALSE
+>>Sem resposta
+>>Nenhuma das alternativas anteriores
+;;Qualquer coisa E uma falsidade é falso. Qualquer coisa OU uma verdade é verdade. Logo, FALSE or TRUE = TRUE.

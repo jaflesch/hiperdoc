@@ -1,0 +1,6 @@
+Se tentarmos imprimir um caractere com "%d", o que acontece?
+>>É impresso na tela o valor ASCII do caractere
+>>Ocorre erro de compilação
+>>O caractere é impresso normalmente
+>>Será impresso na tela um número qualquer
+;;A linguagem irá imprimir o valor ASCII do caractere, pois é um número inteiro e solicitamos a impressão deste ("%d").

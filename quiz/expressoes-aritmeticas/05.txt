@@ -1,0 +1,6 @@
+Sobre as operações aritméticas
+>>Funcionam com qualquer tipo de variável, inclusive char
+>>Só funcionam com int
+>>Só funcionam com int e float
+>>Com todos menos char e double
+;;Todos os tipos. O que pode ocorrer é, na hora de uma operação, ter seu valor convertido e operado com o outro valor (um char vira o valor numérico da tabela em ASCII).

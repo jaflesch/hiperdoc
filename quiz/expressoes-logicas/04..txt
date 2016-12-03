@@ -1,0 +1,6 @@
+Quando utilizamos {} no if?
+>>Quando há mais de uma instrução a serem realizadas na condição
+>>Sempre
+>>Nunca
+>>Quando há pouca identação
+;;Sem os {}, o if realiza apenas a linha seguinte à condição verdadeira.

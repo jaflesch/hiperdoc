@@ -1,0 +1,6 @@
+Como incrementamos uma variável em C?
+>>variavel++;
+>>variavel+;
+>>+variavel+;
+>>inc(variavel);
+;;Vale ressaltar que ++variavel; também é um comando válido.

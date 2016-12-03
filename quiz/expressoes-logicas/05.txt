@@ -1,0 +1,6 @@
+Sobre operadores booleanos
+>>Em C não existem variáveis booleanas nem true/false
+>>Podemos atribuir a uma variavel o valor true
+>>if(false or true) sempre será verdadeiro
+>>true = true
+;;Nenhuma operação booleana pode ser realizada em C com as constantes TRUE ou FALSE. A linguagem também não fornece suporte aos comandos and, or e not.

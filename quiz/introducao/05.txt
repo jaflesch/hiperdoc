@@ -1,0 +1,6 @@
+Como definimos uma constante EXEMPLO cujo valor é 13?
+>>#define EXEMPLO 13
+>>define EXEMPLO = 13;
+>>#define EXEMPLO = 13;
+>>define(EXEMPLO, 13);
+;;Constantes são definidas utilizando <strong>#define</strong> seguido do nome da constante e seu valor.

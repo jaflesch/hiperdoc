@@ -3,10 +3,10 @@ class Quiz {
 	public static function title($page_name){
 		switch($page_name) {
 			case 'introducao': return utf8_encode("1. Introdução");
-			case 'home': return utf8_encode();
-			case 'home': return utf8_encode();
-			case 'home': return utf8_encode();
-			case 'home': return utf8_encode();
+			case 'expressoes-aritmeticas': return utf8_encode("2. Expressões Aritméticas");
+			case 'expressoes-logicas': return utf8_encode("3. Expressões Lógicas");
+			case 'switch': return utf8_encode("4. Switch");
+			case 'lacos': return utf8_encode("5. Laços");
 		}
 	}
 	

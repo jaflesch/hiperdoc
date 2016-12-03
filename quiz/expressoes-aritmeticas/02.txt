@@ -1,0 +1,12 @@
+Sabendo que: <br>
+	int a = 5;<br> 
+	int b = 5;<br>
+	a = a + b;<br>
+	b + 5;<br><br>
+
+Quanto valem a e b respectivamente?
+>>10 e 5
+>>Ambas 5
+>>Ambas 10
+>>5 e 10
+;;As duas primeiras instruções apenas dizem os valores das variáveis. Depois, a é atualizado com o valor dele mesmo + b. Ou seja, a vale 10. A última linha apenas realiza uma soma de dois valores, mas este não é salvo em lugar algum. Portanto, b não tem seu valor modificado.

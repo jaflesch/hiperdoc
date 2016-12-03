@@ -1,0 +1,6 @@
+Como fazemos a potência de um número em C?
+>>pow(base, potencia)
+>>base * expoente
+>>base^expoente
+>>pow(potencia, base)
+;;Importante lembrar que precisamos incluir a biblioteca <math.h>

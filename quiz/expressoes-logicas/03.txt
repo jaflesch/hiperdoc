@@ -1,0 +1,6 @@
+Qual o operador utilizado para negação?
+>>!
+>>&&
+>>||
+>>!!
+;;Para negação utilizamos !. Um exemplo claro disso é quando fazemos != (não é igual).

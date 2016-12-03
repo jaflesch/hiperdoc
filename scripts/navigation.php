@@ -154,15 +154,6 @@ class Navigation {
 			
 
 			// customize for every page...
-			
-			// quiz
-			case 'quiz-introducao':
-				return utf8_encode(
-				"<a class='navbar-brand' href='introducao.php'>
-					<i class='fa fa-2x fa-angle-left'></i>
-				</a>
-				<span class='navbar-description'> 1. Introdução </span>
-				");
 		}
 	}
 }

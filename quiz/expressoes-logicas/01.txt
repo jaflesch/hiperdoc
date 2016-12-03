@@ -1,0 +1,6 @@
+Quantos if else aninhados podemos fazer?
+>>Infinitos
+>>Um apenas
+>>Dois
+>>Três
+;;Respeitando a sintaxe, quantos forem necessários.

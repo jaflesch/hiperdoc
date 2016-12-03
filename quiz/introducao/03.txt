@@ -1,0 +1,6 @@
+Se quiséssemos trabalhar apenas com números naturais, qual seria o melhor tipo de dados para as variáveis?
+>>int
+>>float
+>>double
+>>char
+;;A resposta é <strong>int</strong>, pois é o tipo que guarda apenas valores inteiros. Lembre-se que os número naturais também são inteiros.
