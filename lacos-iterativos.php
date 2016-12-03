@@ -89,7 +89,7 @@ int main()
 		</div>
 	</section>
 
-	<section id="#nomeSection">
+	<section id="#LoopsFor">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -116,19 +116,95 @@ int main()
 						     return 0;
 						}
 					</code></pre>
-					<pre class="exe">	0
+					<pre class="exe">0
 1
 1
 1
 ... LOOP! </pre>
 				</div>					
+					<p>
+					No exemplo anterior, o programa começa a iteração com i = 0, imprime o valor e faz i = 0. Acaba as instruções a serem iteradas, o for automatica incrementa o i de acordo com nossa definição (i++). Novamente, imprimimos o valor de i (que é 1, agora), passamos seu valor para 0 e o for volta a incrementá-lo (i++). O processo se repetirá infinitamente.</p>
 
+					<p>Portanto, mesmo que você tenha o maior controle sobre a variável de controle, evite ao máximo fazer modificações nela, pois além das chances de erro aumentarem significativamente, não é considerada uma alternativa elegante em programação justamente por deixar o código instável.</p>
+
+					<p>Todas as iterações foram realizadas com tamanhos constantes, predeterminados. No início do tópico dissemos que os laços servem para nos poupar trabalho e os usamos para repetir instruções. Só que temos um problema: e se nosso programa precisa iterar comandos por um número determinado de vezes? Com o for, só podemos iterar uma vez que sabemos quantas vezes vamos repetir!</p>
+
+					<p>Esse tipo de problema precisa contar com a ajuda de outros dois novos laços iterativos: while() e do... while().</p>
 
 				</div>
 			</div>
 	</section>
 
+	<section id="#ComandoWhile">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Comando WHILE()</h1>
+					<p> 
+						Chegamos ao nosso segundo comando de iteração. O while() difere do for principalmente pela sua sintaxe que oferece mais opções para a condição de término do laço. Porém, por fornecer essa liberdade ao programador, é muito comum as pessoas errarem na iteração, gerando vários loops no programa. Não se preocupe! Vamos analisar com cuidado cada termo que compõe o while(). Assim como o for, ele possui os mesmos três termos. A diferença é que a localização deles são em locais diferentes.</p>
 
+						<p>Sem mais delongas, conheçamos esse garoto problema chamado while().</p>
+
+					<h1> Sintaxe do Comando</h1>
+					<div class="console-header"><img src="_img/console/icon.png"></div>
+					<pre><code class="cpp">
+int contador = 0;     // Precisamos inicializar a variável ao declará-la!
+
+while(contador < condição de parada)
+{
+     /*
+          Todas as instruções que você quer sejam iteradas (repetidas) vão aqui dentro
+     */
+
+     contador++;     // Precisamos modificar o contador manualmente!
+}
+					</code></pre>
+				</div>					
+					<p> Note que junto ao comando, só colocamos a condição de parada. O valor de início é definido antes de entrar no laço, pois se não definido, o programa fica instável rodando com lixo na memória e, se definimos o valor dentro do laço, estaríamos mexendo na variável de controle; logo, loop infinito. Por fim, o incremento/ decremento é feito dentro do while().</p>
+
+					<p>Muitos podem pensar: "se o while() é tão chato assim, por que não usar apenas o for então?". Simples, nobre lagarta: seria tudo muito fácil se nossos programas repetissem um número definido de vezes as iterações. Pegando um exemplo simples: desenvolve um programa que executa até o usuário digitar um determinado valor.</p>
+
+					<p>Com seus conhecimentos atuais, como você desenvolveria um algoritmo que resolvesse o problema? O único jeito de fazermos isso com o for é utilizando uma técnica que não é elegante. E digo isso justamente porque estamos fugindo da proposta do for -que é repetir um número conhecido de vezes algo-. Nesse caso, a solução (não ideal, que fique claro) seria:</p>
+
+					<div class="console-header"><img src="_img/console/icon.png"></div>
+					<pre><code class="cpp">
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+     int valor, i;
+     int numeroSecreto = 4;
+
+     for(i = 0; i < 10; i++)
+     {
+          printf("Digite um numero: ");
+          scanf("%d", &valor);
+
+          if(valor == numeroSecreto)
+          {
+               i = 10;
+               printf("\n\n\tAcertou!");
+          }
+
+          else
+               i = 0;
+     }
+
+     return 0;
+}
+					</code></pre>
+					<pre class="exe">Digite um numero: 2
+Digite um numero: 1
+Digite um numero: 7
+Digite um numero: 4
+
+     Acertou!</pre>
+				</div>	
+
+				</div>
+			</div>
+	</section>
 	<section id="#nomeSection">
 		<div class="container">
 			<div class="row">
@@ -136,8 +212,8 @@ int main()
 					<h1> 2. Título Seção Par</h1>
 					
 					<p class='links'>
-						<a class='pull-left' href='index.php'><i class='fa fa-2x fa-angle-left'></i> Título tópico anterior</a>
-						<a class='pull-right' href='exemplo-2.php'>Título próximo tópico <i class='fa fa-2x fa-angle-right'></i></a>
+						<a class='pull-left' href='switch.php'><i class='fa fa-2x fa-angle-left'></i> Switch</a>
+						<a class='pull-right' href='vetores.php'>Vetores<i class='fa fa-2x fa-angle-right'></i></a>
 					</p>
 				</div>
 			</div>

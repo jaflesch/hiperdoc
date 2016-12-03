@@ -54,17 +54,71 @@ A solução é utilizarmos um novo recurso (sim, menti pra você e daí?). Chego
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<h1> Exemplo </h1>
 		
 					<div class="console-header"><img src="_img/console/icon.png"></div>
 					<pre><code class="cpp">
-						int variavel;     // Como declaramos uma variável normal
+int variavel;     // Como declaramos uma variável normal
 
-						int vetor[TAMANHO DO VETOR];     // Como declaramos um arranjo
+int vetor[TAMANHO DO VETOR];     // Como declaramos um arranjo
 					</code></pre>
-					<pre class="exe">	Tela para exibir resultados do printf() </pre>
 				</div>
 			</div>
+
+			<p>Quanto ao tipo de variável, vale as mesmas opções de antes. Podemos ter um dado int, float, double e até, em outro tópico, um caso especial que é o tipo char. A novidade é que, entre colchetes ( [ ] ), vamos definir o tamanho da nossa variável. Mas... o que é esse tamanho? Não é o tamanho do valor em si, mas... de uma maneira de fácil assimilação, seria a quantidade de variáveis que queremos. No nosso exemplo eram 30 alunos; logo, o tamanho do vetor seria [30].</p>
+
+			<div class="row">
+				<div class="col-md-12">
+		
+					<div class="console-header"><img src="_img/console/icon.png"></div>
+					<pre><code class="cpp">
+int vetor[30];     // Declaramos um vetor de números inteiros de tamanho 30!
+					</code></pre>
+				</div>
+			</div>
+
+			<p> E vetores não precisam ser apenas do tipo inteiro!</p>
+
+			<div class="row">
+				<div class="col-md-12">
+		
+					<div class="console-header"><img src="_img/console/icon.png"></div>
+					<pre><code class="cpp">
+float vetor[2];     // Declaramos um vetor de números reais
+double vetor[8];     // Declaramos um vetor de números reais com dupla precisão
+char vetor[10];     // Declaramos um vetor de caracteres
+					</code></pre>
+				</div>
+			</div>			
+			<p>Embora tenhamos acabado de conhecer como se declara um vetor, a questão é: e como funciona isso? Como acessar dados e tudo mais. Calma, já chegamos lá. A primeira coisa que você precisa saber é a seguinte: se a sua variável é um vetor, então os índices serão seus aliados.</p>
+
+			<p>Índices servirão para acessarmos uma determinada posição do array. Por exemplo: se declararmos um vetor de 10 posições, ele terá 10 índices. No entanto, talvez seja um pouco confuso no início, mas esses 10 índices estão no intervalo [0, 9].</p>
+
+			<p>Seria mais intuitivo se começasse no índice 1 e terminasse no 10, mas em computação, a maioria das coisas começa pelo 0, então podemos afirmar o seguinte:</p>
+
+			<div class="row">
+				<div class="col-md-12">
+		
+					<div class="console-header"><img src="_img/console/icon.png"></div>
+					<pre><code class="cpp">
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+     int vetor[4];     // Declaramos nosso vetor
+
+     vetor[0] = 42;     // A primeira posição do vetor recebe 42
+
+     printf("%d", vetor[0]);     // Imprimimos o conteúdo da primeira posição do vetor
+
+     return 0;
+}
+					</code></pre>
+					<pre class="exe">42</pre>
+				</div>
+			</div>	
+
+
 		</div>
 	</section>
 	<section id="#nomeSection">
@@ -74,8 +128,8 @@ A solução é utilizarmos um novo recurso (sim, menti pra você e daí?). Chego
 					<h1> 2. Título Seção Par</h1>
 					
 					<p class='links'>
-						<a class='pull-left' href='index.php'><i class='fa fa-2x fa-angle-left'></i> Título tópico anterior</a>
-						<a class='pull-right' href='exemplo-2.php'>Título próximo tópico <i class='fa fa-2x fa-angle-right'></i></a>
+						<a class='pull-left' href='lacos-terativos.php'><i class='fa fa-2x fa-angle-left'></i>Laços Iterativos</a>
+						<a class='pull-right' href='strings.php'>Strings<i class='fa fa-2x fa-angle-right'></i></a>
 					</p>
 				</div>
 			</div>
