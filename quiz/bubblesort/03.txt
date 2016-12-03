@@ -1,0 +1,6 @@
+Qual a melhor situação do Bubblesort?
+>>Quando todos os elementos já estão ordenados
+>>Sempre está na melhor situação
+>>Nunca está na melhor situação
+>>Quando os dados estão igualmente distribuídos
+;;Se estiver ordenado, ele vai percorrer os dados uma vez e parar. Caso contrário, pode percorrer n² vezes os dados, isto é, o quadrado do tamanho dos dados.

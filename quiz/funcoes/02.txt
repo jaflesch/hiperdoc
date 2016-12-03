@@ -1,0 +1,6 @@
+O comando foo(bar()):
+>>a função foo recebe o retorno da função bar e o usa como parâmetro
+>>Não é permitida em C
+>>Gera erro de compilação
+>>Chama a função foo() e depois a função bar()
+;;Sempre analisamos internamente. Primeiro bar é executada. Na sequência, foo também é executada.

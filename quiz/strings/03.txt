@@ -1,0 +1,6 @@
+Seja a string "abc", qual o conteúdo na posição 3?
+>>'\0'
+>>'c'
+>>'b'
+>>NULL
+;;A última posição da string sempre leva '\0'. Como o vetor só vai até a posição 2 e contém o valor 'c'. O próximo é o caractere delimitador de string.

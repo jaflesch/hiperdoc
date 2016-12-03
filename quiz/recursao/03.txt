@@ -1,0 +1,6 @@
+Se fizermos uma recursão com a própria main()
+>>Funcionaria
+>>Não funciona
+>>Erro de compilação
+>>O programa entra em loop infinito
+;;Funciona, mas a consequência de entrar em loop infinito dependeria do programa em si.

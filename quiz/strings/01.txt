@@ -1,0 +1,6 @@
+Qual o caractere terminador de uma string?
+>>'\0'
+>>'/0'
+>>"\0"
+>>"/0"
+;;Como é um caractere, deve estar entre ''. Em C, utilizamos '\0' para indicar o término da string.

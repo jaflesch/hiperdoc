@@ -1,0 +1,6 @@
+Se quisermos declarar uma string com o valor cujo conteúdo é quiz. Como fazemos?
+>>char var[] = "quiz";
+>>string var[] = "quiz";
+>>char var[] = 'quiz';
+>>string var[] = 'quiz';
+;;Em C, strings são escritas entre "" e não há um tipo específico para ela, isto é, precisamos, na verdade, declarar um vetor de caracteres. Logo, usamos char.

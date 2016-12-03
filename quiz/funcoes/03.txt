@@ -1,0 +1,6 @@
+void foo()
+>>A função foo não possui retorno nem parâmetros
+>>A função retorna um dado void, que é um tipo inexistente em C
+>>foo usa void como parâmetro implícito
+>>Esta função é útil retornar o cálculo de dois números
+;;Void indica vazio. A função retorna um vazio, ou seja, retorna nada. Como foo() não tem parâmetros, ela também não recebe valores de entrada.

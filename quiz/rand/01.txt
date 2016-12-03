@@ -1,0 +1,6 @@
+Para termos "total" aleatoriedade, quais os recursos necessários mínimos?
+>>Biblioteca <time.h>, funções srand() e rand()
+>>Biblioteca <time.h> e função rand()
+>>Biblioteca <time.h>
+>>Funções srand() e rand()
+;;As três são necessárias, pois conseguem criar um cenário maior de aleatoriedade, visto que a semente é o tempo e que sua mudança é constante.

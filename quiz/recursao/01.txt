@@ -1,0 +1,6 @@
+A recursão
+>>Pode ser substituída por laços iterativos
+>>Fornece recursos únicos e incopiáveis
+>>Não possui grandes qualidades
+>>Apresenta problemas de performance
+;;A recursão é uma alternativa aos laços iterativos. Vale lembrar que ela, no entanto, pode gastar muita memória e não ser a melhor opção para alguns algoritmos.

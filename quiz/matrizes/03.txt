@@ -1,0 +1,6 @@
+É possível criar um elemento char conjunto[][][]?
+>>Sim
+>>Não
+>>Sim, mas a sintaxe está errada no exemplo
+>>Não, C só consegue agrupar duas dimensões
+;;Sim, é possível. Neste caso, estaremos criando um vetor tridimensional.

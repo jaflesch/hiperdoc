@@ -1,0 +1,6 @@
+A função int foo(char bar):
+>>Retorna um inteiro e tem um parâmetro de caractere
+>>Retorna um inteiro e tem um parâmetro de inteiro
+>>Retorna um caractere e tem um parâmetro de inteiro
+>>Retorna um caractere e tem um parâmetro de caractere
+;;Na declaração, primeiro vem o tipo do retorno e, dentro dos () vão os argumentos e seus tipos

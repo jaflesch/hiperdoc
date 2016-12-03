@@ -8,12 +8,12 @@ class Quiz {
 			case 'switch': return utf8_encode("4. Switch");
 			case 'lacos': return utf8_encode("5. Laços Iterativos");
 			case 'vetores': return utf8_encode("6. Vetores");
-			case 'strings': return utf8_encode("5. Laços Iterativos");
-			case 'matrizes': return utf8_encode("5. Laços Iterativos");
-			case 'rand': return utf8_encode("5. Laços Iterativos");
-			case 'bubblesort': return utf8_encode("5. Laços Iterativos");
-			case 'funcoes': return utf8_encode("5. Laços Iterativos");
-			case 'recursao': return utf8_encode("5. Laços Iterativos");
+			case 'strings': return utf8_encode("7. Strings");
+			case 'matrizes': return utf8_encode("8. Matrizes");
+			case 'rand': return utf8_encode("9. Função rand()");
+			case 'bubblesort': return utf8_encode("10. Bubblesort");
+			case 'funcoes': return utf8_encode("11. Funções");
+			case 'recursao': return utf8_encode("12. Recursão");
 		}
 	}
 	

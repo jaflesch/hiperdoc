@@ -1,0 +1,6 @@
+Onde seria melhor usada a recursão?
+>>Percorrendo árvores e grafos
+>>Ordenando um vetor
+>>Substituindo valores de uma matriz
+>>No bubblesort
+;;Como já explicado na apostila, recursão são amplamente utilizadas para pecorrer árvores e grafos. No demais, causaria uso desnecessário de memória.

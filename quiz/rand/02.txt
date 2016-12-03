@@ -1,0 +1,6 @@
+Se tivermos uma semente fixa, o que acontece com a função rand()?
+>>Gera sempre a mesma sequência de valores
+>>Funciona normalmente
+>>Gera erro de compilação
+>>Gera erro de execução
+;;A função rand() sempre gera uma sequência fixa para uma determinada semente. Se a semente não muda, a sequência também não.

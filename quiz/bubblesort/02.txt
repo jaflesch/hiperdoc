@@ -1,0 +1,6 @@
+O algoritmo do bubblesort é..
+>>Ruim para grandes conjuntos de dados
+>>Ruim para poucos dados
+>>Bom para todas as situações
+>>Melhor que o quicksort
+;;Bubblesort apresenta uma complexidade O(n²). Isto é ruim! No entanto, para situações com poucos dados, ainda é utilizável. O quicksort apresenta complexidade O(n*log(n)), ou seja, a complexidade é menor; portanto, ele é melhor.

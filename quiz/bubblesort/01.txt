@@ -1,0 +1,6 @@
+Bubblesort é um...
+>>Algoritmo de ordenação
+>>Algoritmo de classificação
+>>Programa de pesquisa
+>>Programa de preenchimento de vetor
+;;Sort vem do inglês ordenar. Logo, estamos ordenando segundo o método da bolha.

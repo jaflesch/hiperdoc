@@ -1,0 +1,6 @@
+Quando pode ser útil a função rand() ?
+>>Quando desejamos inserir aleatoriedade no código
+>>Em cálculos matemáticos
+>>Em operações lógicas
+>>Em situações que demandem segurança
+;;Rand é abreviação de randomizar. Logo, queremos randomizar, gerar aleatoriedade. Rand não deve ser usado em questões de segurança, pois seu comportamenteo pode ser facilmente mapeado por hackers

@@ -1,0 +1,6 @@
+Como declaramos uma matriz de valores fracionários?
+>>float matriz[][];
+>>frac matriz[][];
+>>matriz[][];
+>>int matriz[][];
+;;Números reais são declarados com floats. Matrizes necessitam um vetor de duas dimensõe; logo, dois [].

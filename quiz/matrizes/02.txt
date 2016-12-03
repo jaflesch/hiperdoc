@@ -1,0 +1,6 @@
+Do ponto de vista de C, uma matriz é:
+>>Um vetor de vetores
+>>Um vetor
+>>Um número inteiro
+>>Uma estrutura
+;;Um vetor contém elementos. No caso da matriz, esse elemento é outro vetor que, aí sim, possui elementos do tipo int, char, float etc.
