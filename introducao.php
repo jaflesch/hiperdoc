@@ -836,13 +836,16 @@
 					
 					<ul class='material-list'>
 						<?php 
-							Material::pdf('Arquivo PDF', 'files/nome_topico/nome_arquivo.pdf');
-							Material::web('Página Web', 'files/nome_topico/nome_arquivo.pdf');
-							Material::ppt('Arquivo PowerPoint', 'files/nome_topico/nome_arquivo.pdf');
-							Material::doc('Arquivo Word', 'files/nome_topico/nome_arquivo.pdf');
-							Material::youtube('Vídeo', 'files/nome_topico/nome_arquivo.pdf');
+							Material::pdf('Introdução', 'files/01.pdf');
+							Material::pdf('Comandos de Atribuição', 'files/02.pdf');
+							Material::pdf('Melhorando o Código', 'files/03.pdf');
+							Material::youtube('Programando em C - Aula 01', 'https://www.youtube.com/watch?v=HGVLkS2VmH4');
+							Material::youtube('Programando em C - Aula 02', 'https://www.youtube.com/watch?v=-Y4QJy6tT14');
+							//Material::ppt('Arquivo PowerPoint', 'files/nome_topico/nome_arquivo.pdf');
+							//Material::doc('Arquivo Word', 'files/nome_topico/nome_arquivo.pdf');
+							Material::web('Programando em C - PUC', 'http://www.inf.pucrs.br/~pinho/LaproI/IntroC/IntroC.htm');
 							Material::quiz('Quiz online', 'quiz.php?area=introducao');
-							Material::home('Arquivo com exercícios + gabaritos', 'files/nome_topico/nome_arquivo.pdf');
+							//Material::home('Arquivo com exercícios + gabaritos', 'files/nome_topico/nome_arquivo.pdf');
 						?>
 					</ul>					
 					
