@@ -9,44 +9,47 @@
 	include "_view/header.php";
 ?>
 	<!-- HTML Content -->
-	<section id="#nomeSection">
+	<section id="#vetores">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1> 1. Título Seção Ímpar</h1>
-					<h2> 1.1. Título Subseção </h2>
-					<p> 
-						Lorem ipsum dolor sit amet, lobortis delicata in vel, te pri eruditi contentiones. Te nam suscipit explicari. 
-						Option mediocrem no eam. Vix ea magna doctus similique, ei vix vero theophrastus.
-						Commodo gloriatur mei id. Ne eos diam graeci persius, elit graeci an eos. Ex affert facilisis pri, 
-						vix oratio doming verterem ut. Te eos possim volumus, nullam possim menandri nec id, cum mandamus 
-						inimicus no. Nam an habeo graece, ei tota dicant est. Consul disputationi his ea, vim saperet consetetur ea. 
-						In duo utamur explicari. No aliquam consectetuer vis. In corpora suscipiantur his, id discere mandamus pro. 
-						Eruditi assentior repudiandae id usu, appareat incorrupte honestatis et sit. Per cu offendit atomorum, pro 
-						id deleniti placerat suavitate, pri te quas inermis vituperata. Cum noster aperiam in. Vix ne conceptam 
-						scriptorem. Eam ea ponderum ocurreret, vix te facete luptatum theophrastus. Cu inermis detraxit deserunt pro. 
-						No pro case iracundia evertitur, quo an summo atomorum. Graece consetetur sea id, ex eam regione legimus nostrum. 
-						Id mea augue albucius perfecto, vix cibo sensibus at.
-					</p>
+					<h1> Declaração</h1>
+
+<p>Você deve se lembrar do tópico anterior (espero eu) que os laços iterativos apareceram para facilitar nossa vida. E, de fato, facilitaram mesmo apesar de eventuais dores de cabeça e até tonturas, veja só, de tantos loops. Porém, nobre lagarta, ainda temos um problema. E digo mais: um problemão.</p>
+
+<p>Esse problemão acontece justamente por causa dos laços iterativos. Não, não se preocupe. Você não foi enganado, o conteúdo apredindo vai sim facilitar sua vida, mas ainda existe uma situação que continua nos dando trabalho: variáveis. Desde as primeiras aulas, acredito eu que as variáveis estão presentes em seus códigos, afinal, elas são realmente muito úteis visto que armazenam dados que posteriormente usamos em nossos programas. No entanto, apesar de ajudarem, elas são muito atrapalhadas! Só conseguem carregar um valor por vez. Se pegarem um novo valor, elas perdem o antigo.</p>
+
+<p>Todos os nossos códigos até agora estavam lindos (exceto o dos preguiçosos que não identam, porque né...) com funções e comandos que sempre nos ajudavam. Agora, mesmo com todas as instruções que temos em mãos, como você resolveria o seguinte problema: armazenar as notas de 30 alunos de uma turma?</p>
+
+<p>Não seja egoísta: não venha me dizer que é um programa inútil! Imagine que umas das notas é a sua. Ok, agora o programa passou a ser útil, né? ótimo. Então me ajude e pense como podemos fazer isso?</p>
+
+<p>
+a) Criamos 30 variáveis e recolhemos os dados das 30 com scanf();
+b) Criamos 30 variáveis e utilizamos um laço iterativo
+c) Só precisamos de um laço e de uma variável: vamos recolhendo o valor de cada nessa variável
+d) Chuta na C
+e) Chora
+Vish... Complicou? Vamos analisar nossas opções:
+</p>
+
+<p>
+A) Funciona! Mas só é indicado para se fazer em dias de chuva que você esteja com tédio. Não é uma solução prática. Recolher os 30 valores é inevitável, precisamos mesmo fazer isso. O problema é repetir isso 30 vezes com 30 variáveis. Imagine se for um número ainda maior!
+
+B) Depende! Se o laço possuir um if e um contador que checa e atribui o valor à variável, funciona, mas é ainda mais trabalhoso que a opção A). Agora, se não utilizarmos if, vamos recolher os 30 valores para as 30 variáveis mais de uma vez! Imagina utilizar um programa assim... o suicídio passa a ser uma obrigação!
+
+C) Não funciona! A cada iteração perdemos o valor anterior da variável. No final do laço, só teremos a nota do último aluno.
+
+D) Não!
+
+E) Também não!
+</p>
+<p>
+A solução é utilizarmos um novo recurso (sim, menti pra você e daí?). Chegou a hora de conhecermos os famosos arranjos. Se os laços iterativos repetiam instruções, os arranjos (ou vetores ou, ainda, arrays) funcionam para "repetir variáveis".</p>
+
+<p> Frisarei desde o início: "repetir variáveis" entre aspas. Atente ao meu cuidado, pois não quero que entenda errado. Os vetores dão essa ideia de repetição se estiverem acompanhados de um laço iterativo, pois a estrutura deles nos dá liberdade para contornar aquele problema inicial apresentado.</p>
+
+<p>Abaixo temos a declaração de uma variável que é vetor. Atente aos exemplos na sequência.</p>
 					
-					<h2> 1.2. Textos </h2>
-					<p> 
-						<strong>Texto em negrito</strong>.<br/>
-						Texto com destaque para sintaxes da linguagem... ex.: <em>for</em>, <em>int</em>, <em>return</em>...  <br/>
-						
-						Lorem ipsum dolor sit amet, lobortis delicata in vel, te pri eruditi contentiones. Te nam suscipit explicari. 
-						Option mediocrem no eam. Vix ea magna doctus similique, ei vix vero theophrastus.
-						Commodo gloriatur mei id. Ne eos diam graeci persius, elit graeci an eos. Ex affert facilisis pri, 
-						vix oratio doming verterem ut. Te eos possim volumus, nullam possim menandri nec id, cum mandamus 
-						inimicus no. Nam an habeo graece, ei tota dicant est. Consul disputationi his ea, vim saperet consetetur ea. 
-						In duo utamur explicari. No aliquam consectetuer vis. In corpora suscipiantur his, id discere mandamus pro. 
-						Eruditi assentior repudiandae id usu, appareat incorrupte honestatis et sit. Per cu offendit atomorum, pro 
-						id deleniti placerat suavitate, pri te quas inermis vituperata. Cum noster aperiam in. Vix ne conceptam 
-						scriptorem. Eam ea ponderum ocurreret, vix te facete luptatum theophrastus. Cu inermis detraxit deserunt pro. 
-						No pro case iracundia evertitur, quo an summo atomorum. Graece consetetur sea id, ex eam regione legimus nostrum. 
-						Id mea augue albucius perfecto, vix cibo sensibus at.
-					</p>
-					<h2> 1.2. Subtítulo </h2>
 				</div>
 			</div>
 			<div class="row">
@@ -55,22 +58,9 @@
 		
 					<div class="console-header"><img src="_img/console/icon.png"></div>
 					<pre><code class="cpp">
-	// o código nem compila, mas é só pra mostrar a syntax highlighting mesmo 
-	#include &lt;foo.bar&gt;
-	#define a c
-	
-	int main(char args[]) {
+						int variavel;     // Como declaramos uma variável normal
 
-		int i = 0;
-		printf("%d", i + '5');
-		
-		int a = foo(bar);
-		a++;
-		while(i == true);
-		
-		// teste (a formatação fica toda cagada no arquivo html para trechos de código btw) :/
-		return 0;
-	}
+						int vetor[TAMANHO DO VETOR];     // Como declaramos um arranjo
 					</code></pre>
 					<pre class="exe">	Tela para exibir resultados do printf() </pre>
 				</div>

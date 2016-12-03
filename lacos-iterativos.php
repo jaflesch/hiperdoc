@@ -9,74 +9,126 @@
 	include "_view/header.php";
 ?>
 	<!-- HTML Content -->
-	<section id="#nomeSection">
+	<section id="#lacos">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1> 1. Título Seção Ímpar</h1>
-					<h2> 1.1. Título Subseção </h2>
+					<h1> 1. Comando FOR</h1>
 					<p> 
-						Lorem ipsum dolor sit amet, lobortis delicata in vel, te pri eruditi contentiones. Te nam suscipit explicari. 
-						Option mediocrem no eam. Vix ea magna doctus similique, ei vix vero theophrastus.
-						Commodo gloriatur mei id. Ne eos diam graeci persius, elit graeci an eos. Ex affert facilisis pri, 
-						vix oratio doming verterem ut. Te eos possim volumus, nullam possim menandri nec id, cum mandamus 
-						inimicus no. Nam an habeo graece, ei tota dicant est. Consul disputationi his ea, vim saperet consetetur ea. 
-						In duo utamur explicari. No aliquam consectetuer vis. In corpora suscipiantur his, id discere mandamus pro. 
-						Eruditi assentior repudiandae id usu, appareat incorrupte honestatis et sit. Per cu offendit atomorum, pro 
-						id deleniti placerat suavitate, pri te quas inermis vituperata. Cum noster aperiam in. Vix ne conceptam 
-						scriptorem. Eam ea ponderum ocurreret, vix te facete luptatum theophrastus. Cu inermis detraxit deserunt pro. 
-						No pro case iracundia evertitur, quo an summo atomorum. Graece consetetur sea id, ex eam regione legimus nostrum. 
-						Id mea augue albucius perfecto, vix cibo sensibus at.
-					</p>
-					
-					<h2> 1.2. Textos </h2>
-					<p> 
-						<strong>Texto em negrito</strong>.<br/>
-						Texto com destaque para sintaxes da linguagem... ex.: <em>for</em>, <em>int</em>, <em>return</em>...  <br/>
-						
-						Lorem ipsum dolor sit amet, lobortis delicata in vel, te pri eruditi contentiones. Te nam suscipit explicari. 
-						Option mediocrem no eam. Vix ea magna doctus similique, ei vix vero theophrastus.
-						Commodo gloriatur mei id. Ne eos diam graeci persius, elit graeci an eos. Ex affert facilisis pri, 
-						vix oratio doming verterem ut. Te eos possim volumus, nullam possim menandri nec id, cum mandamus 
-						inimicus no. Nam an habeo graece, ei tota dicant est. Consul disputationi his ea, vim saperet consetetur ea. 
-						In duo utamur explicari. No aliquam consectetuer vis. In corpora suscipiantur his, id discere mandamus pro. 
-						Eruditi assentior repudiandae id usu, appareat incorrupte honestatis et sit. Per cu offendit atomorum, pro 
-						id deleniti placerat suavitate, pri te quas inermis vituperata. Cum noster aperiam in. Vix ne conceptam 
-						scriptorem. Eam ea ponderum ocurreret, vix te facete luptatum theophrastus. Cu inermis detraxit deserunt pro. 
-						No pro case iracundia evertitur, quo an summo atomorum. Graece consetetur sea id, ex eam regione legimus nostrum. 
-						Id mea augue albucius perfecto, vix cibo sensibus at.
-					</p>
-					<h2> 1.2. Subtítulo </h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<h1> Exemplo </h1>
-		
+						Até agora revisamos os comandos básicos como printf() e scanf() expressões aritméticas, lógicas e até uma instrução bem peculiar: o switch. Até o momento nossos programas -e algoritmos- são bem simples. Tudo normal visto que estamos aprendendo os conceitos de programação ainda. Porém, é só pensarmos um pouco em problemas mais complexos que as coisas começam a complicar. E o pior é que não precisa pensar muito.</p>
+
+						<p> Então, como nos defenfermos de tamanha injustiça contra pobres novatos em programação? Fique tranquilo, pois neste tópico apresentaremos ferramentas muito poderosas e que vão estar em quase todos os programas de vocês daqui para a frente. </p>
+
+						<p> Podemos dizer que os laços iterativos serão nossos super heróis (até encontrarmos problemas maiores). Agora, o que significa um laço iterativo? O que é iteração?´É de comer? </p>
+
+						<p>Iteração nada mais é do que a repetição de instruções. Agora provavelmente sua próxima dúvida será: "E como isso vai me ajudar?". Ora, de diversas formas, pequena rúcula. A principal será, para nossa alegria (sem referências externas aqui, ok?), a diminuição do número de linhas que escreveremos, ou seja, vamos deixar a preguiça tomar conta de nossos dedos e todo o trabalho árduo fica por conta do pobre do computador.</p>
+
+						<p>Aposto que se interessou agora que terá menos trabalho, né? Mas antes de apresentar a sintaxe do comando, mostremos um exemplo: fazer um programa que calcula a média das notas de 7 pessoas.</p>
+
 					<div class="console-header"><img src="_img/console/icon.png"></div>
 					<pre><code class="cpp">
-	// o código nem compila, mas é só pra mostrar a syntax highlighting mesmo 
-	#include &lt;foo.bar&gt;
-	#define a c
-	
-	int main(char args[]) {
+#include <stdio.h>
+#include <stdlib.h>
 
-		int i = 0;
-		printf("%d", i + '5');
-		
-		int a = foo(bar);
-		a++;
-		while(i == true);
-		
-		// teste (a formatação fica toda cagada no arquivo html para trechos de código btw) :/
-		return 0;
-	}
+int main()
+{
+     float nota, media = 0;
+
+     printf("Digite a nota do aluno: ");
+     scanf("%f", &nota);
+
+     media = media + nota;
+
+     printf("Digite a nota do aluno: ");
+     scanf("%f", &nota);
+
+     media = media + nota;
+
+     printf("Digite a nota do aluno: ");
+     scanf("%f", &nota);
+
+     media = media + nota;
+
+     printf("Digite a nota do aluno: ");
+     scanf("%f", &nota);
+
+     media = media + nota;
+
+     printf("Digite a nota do aluno: ");
+     scanf("%f", &nota);
+
+     media = media + nota
+
+     printf("Digite a nota do aluno: ");
+     scanf("%f", &nota);
+
+     media = media + nota;
+
+     printf("Digite a nota do aluno: ");
+     scanf("%f", &nota);
+
+     media = media + nota;
+
+     media = media / 7;
+
+     printf("\n\n A media da turma eh: %.2f", media);
+
+
+     return 0;
+}
 					</code></pre>
-					<pre class="exe">	Tela para exibir resultados do printf() </pre>
+
+					<p> Não preciso nem dizer que o programa funciona, mas a quantidade de repetições das mesmas instruções é um tanto desconfortável. Mesmo àqueles que fazem copy paste (CTRL + C / CTRL + V), chega um ponto que se torna cansativo, que se perde no número de vezes que está repetindo. A situação se torna mais crítica quando trabalhamos com números que retratam a realidade: uma turma tem muito mais alunos que isso. Imagine uma turma de Cálculo I com mais de 70 alunos. Entende a seriedade do assunto? </p>
+
+					<p> Laços iterativos não são uma ferramenta para preguiçosos na programação. Eles são extremamente úteis em diversos cenários, embora se prendam ao simples ato de repetir. Por exemplo, a tela de carregamento de um jogo: fica em uma imagem mais simples até carregar os dados importantes. Ou quando você está stalkeando alguém no Facebook: como acha que consegue buscar os dados do seu alvo? Existe todo um algoritmo por trás da busca e a iteração está presente. Quando estamos assistindo uma playlist e colocamos loop: novamente, iteração. </p>
+
+					<p> Toda essa ambientalização com a iteração não é por nada. Essa funcionalidade é muito importante e você deve estudá-la "com carinho". </p>
+
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<section id="#nomeSection">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1> Loops no FOR</h1>
+					<p> 
+						Existem três maneiras de deixar seu laço iterativo em um loop infinito. O primeiro -e mais comum- é alterando o valor da variável de controle, nosso contador, dentro do laço. Existem casos que podemos fazer isso (dependendo da proposta do algoritmo), mas mesmo nessas situações são tomadas medidas de precaução. Nunca mexemos diretamente na variável. Caso contrário, o for itera todas as instruções e, inclusive, a que altera o contador. Consequentemente, mesmo o contador sendo incremento/decremento ele vai ter sempre seu valor modificado pelo comando em questão.
+					</p>
+
+					<div class="console-header"><img src="_img/console/icon.png"></div>
+					<pre><code class="cpp">
+						#include <stdio.h>
+						#include <stdlib.h>
+
+						int main()
+						{
+						     int i;
+
+						     for(i = 0; i < 5; i++)
+						     {
+						          printf("%d \n", i);
+						          i = 0;
+						     }
+
+						     return 0;
+						}
+					</code></pre>
+					<pre class="exe">	0
+1
+1
+1
+... LOOP! </pre>
+				</div>					
+
+
+				</div>
+			</div>
+	</section>
+
+
 	<section id="#nomeSection">
 		<div class="container">
 			<div class="row">
@@ -91,5 +143,6 @@
 			</div>
 		</div>
 	</section>
-	
+
+
 <?php include "_view/footer.php"; ?>
