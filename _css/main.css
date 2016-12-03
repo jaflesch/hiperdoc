@@ -34,6 +34,25 @@ section:nth-child(odd) { background: #f4f4f4; }
 #wrapper {
 	overflow-x: hidden;
 }
+.rollback {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	background: #F44336;
+	height: 50px;
+	width: 50px;
+	color: #fff;
+	border-radius: 25px;
+	padding: 10px;
+	text-align: center;
+	opacity: 0.7;
+	transition: opacity 0.2s ease-in-out;
+	cursor: pointer;
+}
+.rollback:hover {
+	opacity: 1;
+	transition: opacity 0.2s ease-in-out;
+}
 
 /* texts */
 h1 {
