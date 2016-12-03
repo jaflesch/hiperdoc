@@ -128,7 +128,7 @@
 							
 							<td><a href="arrays.php">
 								<div id="arr"></div>
-								<h3 class="thing-title">Arranjos</h3>
+								<h3 class="thing-title"> Vetores </h3>
 							  
 								<ul class="thing-description">
 									<li>Declaração</li>
@@ -161,7 +161,19 @@
 									<li>Exemplos</li>
 								</ul>
 							</td>
-							
+
+							<td>
+								<a href="rand.php">
+								<div id="rnd"></div>
+								<h3 class="thing-title">Função rand()</h3>
+							  
+								<ul class="thing-description">
+									<li>Declaração</li>
+									<li>Exemplos</li>
+								</ul></a>
+							</td>
+						</tr>
+						<tr>
 							<td>
 								<div id="bubb"></div>
 								<h3 class="thing-title">Bubblesort</h3>
@@ -172,9 +184,6 @@
 									<li>Bubblesort otimizado</li>
 								</ul>
 							</td>
-						</tr>
-						
-						<tr>
 							<td>
 								<div id="fnc"></div>
 								<h3 class="thing-title">Funções</h3>
@@ -184,44 +193,6 @@
 									<li>Funções com retorno</li>
 								</ul>
 							</td>
-							
-							<td>
-								<div id="ptr"></div>
-								<h3 class="thing-title">Ponteiros</h3>
-							  
-								<ul class="thing-description">
-									<li>Declaração</li>
-									<li>Funções com ponteiros</li>
-									<li>Vetores e Ponteiros</li>
-									<li>Exemplos</li>
-								</ul>
-							</td>
-							
-							<td>
-								<div id="stu"></div>
-								<h3 class="thing-title">Estruturas</h3>
-							  
-								<ul class="thing-description">
-									<li>Declaração</li>
-									<li>Vetor de estruturas</li>
-									<li>Funções com estruturas</li>
-									<li>Exemplos</li>
-								</ul>
-							</td>
-						</tr>
-						
-						<tr>
-							<td>
-								<div id="arq"></div>
-								<h3 class="thing-title">Arquivos</h3>
-							  
-								<ul class="thing-description">
-									<li>Declaração</li>
-									<li>Arquivos Binários</li>
-									<li>Arquivos de Texto</li>
-								</ul>
-							</td>
-						
 							<td>
 								<div id="rec"></div>
 								<h3 class="thing-title">Recursão</h3>
@@ -230,17 +201,7 @@
 									<li>Declaração</li>
 									<li>Exemplos</li>
 								</ul>
-							</td>
-						
-							<td><a href="rand.php">
-								<div id="rnd"></div>
-								<h3 class="thing-title">Função rand()</h3>
-							  
-								<ul class="thing-description">
-									<li>Declaração</li>
-									<li>Exemplos</li>
-								</ul></a>
-							</td>
+							</td>							
 						</tr>
 					</table>
 				</div>

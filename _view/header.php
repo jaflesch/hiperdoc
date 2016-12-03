@@ -31,9 +31,7 @@
 									<li><a href="switch.php"> Switch </a></li>
 									<li><a href="lacos-iterativos.php"> Laços Iterativos </a></li>
 									<li><a href="vetores.php"> Vetores </a></li>
-									<li><a href="strings.php"> Strings </a></li>
-									<li><a href="matrizes.php"> Matrizes </a></li>
-									<li><a href="bubblesort.php"> Bubblesort </a></li>
+									
 								</ul>
 							</li>
 							<li class="dropdown" href="#topicos">
@@ -41,12 +39,13 @@
 									Área 02 <span class="caret"></span>
 								</a>
 								<ul class="dropdown-menu">
+									<li><a href="strings.php"> Strings </a></li>
+									<li><a href="matrizes.php"> Matrizes </a></li>
+									<li><a href="funcao-rand.php"> Função rand() </a></li>									
+									<li><a href="bubblesort.php"> Bubblesort </a></li>
 									<li><a href="funcoes.php"> Funções </a></li>
-									<li><a href="ponteiros.php"> Ponteiros </a></li>
-									<li><a href="estruturas.php"> Estruturas </a></li>
-									<li><a href="arquivos.php"> Arquivos </a></li>
 									<li><a href="recursao.php"> Recursão </a></li>
-									<li><a href="funcao-rand.php"> Função rand() </a></li>
+									
 								</ul>
 							</li>
 							<li><a title="" href="#contato"> Exercícios Resolvidos </a></li>
