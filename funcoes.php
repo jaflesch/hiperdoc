@@ -1,95 +1,137 @@
 <?php
-	// includes...
-	require_once "scripts/navigation.php";
-	
-	$page_title = "Página Exemplo 2";
-	include "_view/head.php";
-	
-	$link_navbar = Navigation::get_link('funcoes');
-	include "_view/header.php";
-?>
-	<!-- HTML Content -->
-	<section id="#nomeSection">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1> 1. Título Seção Ímpar</h1>
-					<h2> 1.1. Título Subseção </h2>
-					<p> 
-						Lorem ipsum dolor sit amet, lobortis delicata in vel, te pri eruditi contentiones. Te nam suscipit explicari. 
-						Option mediocrem no eam. Vix ea magna doctus similique, ei vix vero theophrastus.
-						Commodo gloriatur mei id. Ne eos diam graeci persius, elit graeci an eos. Ex affert facilisis pri, 
-						vix oratio doming verterem ut. Te eos possim volumus, nullam possim menandri nec id, cum mandamus 
-						inimicus no. Nam an habeo graece, ei tota dicant est. Consul disputationi his ea, vim saperet consetetur ea. 
-						In duo utamur explicari. No aliquam consectetuer vis. In corpora suscipiantur his, id discere mandamus pro. 
-						Eruditi assentior repudiandae id usu, appareat incorrupte honestatis et sit. Per cu offendit atomorum, pro 
-						id deleniti placerat suavitate, pri te quas inermis vituperata. Cum noster aperiam in. Vix ne conceptam 
-						scriptorem. Eam ea ponderum ocurreret, vix te facete luptatum theophrastus. Cu inermis detraxit deserunt pro. 
-						No pro case iracundia evertitur, quo an summo atomorum. Graece consetetur sea id, ex eam regione legimus nostrum. 
-						Id mea augue albucius perfecto, vix cibo sensibus at.
-					</p>
-					
-					<h2> 1.2. Textos </h2>
-					<p> 
-						<strong>Texto em negrito</strong>.<br/>
-						Texto com destaque para sintaxes da linguagem... ex.: <em>for</em>, <em>int</em>, <em>return</em>...  <br/>
-						
-						Lorem ipsum dolor sit amet, lobortis delicata in vel, te pri eruditi contentiones. Te nam suscipit explicari. 
-						Option mediocrem no eam. Vix ea magna doctus similique, ei vix vero theophrastus.
-						Commodo gloriatur mei id. Ne eos diam graeci persius, elit graeci an eos. Ex affert facilisis pri, 
-						vix oratio doming verterem ut. Te eos possim volumus, nullam possim menandri nec id, cum mandamus 
-						inimicus no. Nam an habeo graece, ei tota dicant est. Consul disputationi his ea, vim saperet consetetur ea. 
-						In duo utamur explicari. No aliquam consectetuer vis. In corpora suscipiantur his, id discere mandamus pro. 
-						Eruditi assentior repudiandae id usu, appareat incorrupte honestatis et sit. Per cu offendit atomorum, pro 
-						id deleniti placerat suavitate, pri te quas inermis vituperata. Cum noster aperiam in. Vix ne conceptam 
-						scriptorem. Eam ea ponderum ocurreret, vix te facete luptatum theophrastus. Cu inermis detraxit deserunt pro. 
-						No pro case iracundia evertitur, quo an summo atomorum. Graece consetetur sea id, ex eam regione legimus nostrum. 
-						Id mea augue albucius perfecto, vix cibo sensibus at.
-					</p>
-					<h2> 1.2. Subtítulo </h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<h1> Exemplo </h1>
-		
-					<div class="console-header"><img src="_img/console/icon.png"></div>
-					<pre><code class="cpp">
-	// o código nem compila, mas é só pra mostrar a syntax highlighting mesmo 
-	#include &lt;foo.bar&gt;
-	#define a c
-	
-	int main(char args[]) {
+// includes...
+require_once "scripts/navigation.php";
 
-		int i = 0;
-		printf("%d", i + '5');
-		
-		int a = foo(bar);
-		a++;
-		while(i == true);
-		
-		// teste (a formatação fica toda cagada no arquivo html para trechos de código btw) :/
-		return 0;
-	}
+$page_title = "Página Exemplo 2";
+include "_view/head.php";
+
+$link_navbar = Navigation::get_link('funcoes');
+include "_view/header.php";
+?>
+<!-- HTML Content -->
+<section id="#funcoes">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1> O que são funções?  </h1>
+                <p> 
+                    Na linguagem C, denominamos função a um conjunto de comandos que realiza uma tarefa específica em um módulo 
+                    ependente de código, ou seja, uma subrotina.. A função é referenciada pelo programa principal através do nome
+                    atribuído a ela. A utilização de funções visa modularizar um programa, o que é muito comum em programação estruturada.
+                    Assim podemos dividir um programa em várias partes, no qual cada função realiza uma tarefa bem definida.
+
+                </p>
+
+                <h2> Declarando funções </h2>
+                <p> 
+                    Para definir uma função, empregamos a seguinte forma básica:
+                </p>
+
+                <pre><code class="cpp">
+                tipo nome(parâmetros) {  comandos } ;
 					</code></pre>
-					<pre class="exe">	Tela para exibir resultados do printf() </pre>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="#nomeSection">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1> 2. Título Seção Par</h1>
-					
-					<p class='links'>
-						<a class='pull-left' href='index.php'><i class='fa fa-2x fa-angle-left'></i> Título tópico anterior</a>
-						<a class='pull-right' href='exemplo-2.php'>Título próximo tópico <i class='fa fa-2x fa-angle-right'></i></a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	
+
+                </br>
+                <p> 
+
+                    “Tipo” refere-se ao tipo de resposta que a função devolve, 
+                    podendo ser ser void (vazio) se a função não tem valor de resposta, “nome” é o 
+                    identificador da função no resto do programa e “parâmetros” é uma lista de variáveis 
+                    que representam valores de entrada para a função e que pode ser vazia. 
+
+                </p>
+
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1> Exemplos </h1>
+
+                <p> 
+                    A função declarada abaixo realiza a soma de dois números inteiros escolhidos pelo 
+                    usuário e retorna esse valor.
+                </p>
+                
+                <div class="console-header"><img src="_img/console/icon.png"></div>
+                <pre><code class="cpp"> 
+#include &lt;stdio.h&gt;
+
+int soma(int N1, int N2) 
+{
+  int resultado;
+  resultado = N1 + N2;
+  return(resultado); 
+}
+
+int main(void)
+{
+  int V1, V2, resultado;
+  printf("Digite o primeiro número:");
+  scanf("%d", &V1);
+  printf("Digite o segundo número:");
+  scanf("%d", &V2);
+
+  resultado = soma(V1,V2);
+  printf("Resultado = %d \n", resultado);
+  return 0;
+}
+                </code></pre>
+                
+                </br>                </br>
+                
+                <p> 
+                    O programa abaixo mostra a utilização de uma função sem parametros e sem valor de retorno.
+                </p>
+                
+                </br>
+                
+                <pre><code class="cpp"> 
+
+#include &lt;stdio.h&gt;
+
+void imprime_cabec(void)
+{
+  printf("******************************\n");
+  printf("*   	LINGUAGEM C      	*\n");
+  printf("******************************\n\n");
+
+  return;/* retorno de uma função void  */
+}
+
+
+int main(void)
+{
+  imprime_cabec();
+   return 0;
+}
+                        }
+                </code></pre>
+                <pre class="exe"> 
+                ******************************
+                *   	LINGUAGEM C      	*           
+                ******************************                    
+                </pre>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="#nomeSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1> 2. Título Seção Par</h1>
+
+                <p class='links'>
+                    <a class='pull-left' href='index.php'><i class='fa fa-2x fa-angle-left'></i> Título tópico anterior</a>
+                    <a class='pull-right' href='exemplo-2.php'>Título próximo tópico <i class='fa fa-2x fa-angle-right'></i></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php include "_view/footer.php"; ?>
