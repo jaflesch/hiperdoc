@@ -1,8 +1,9 @@
 <?php
 	// includes...
 	require_once "scripts/navigation.php";
+	require_once "scripts/material.php";
 	
-	$page_title = "Página Exemplo 2";
+	$page_title = "Vetores";
 	include "_view/head.php";
 	
 	$link_navbar = Navigation::get_link('vetores');
@@ -127,6 +128,16 @@ int main()
 				<div class="col-md-12">
 					<h1> 2. Título Seção Par</h1>
 					
+					<ul class='material-list'>
+						<?php 
+							Material::pdf('Arranjos unidimensionais', 'files/12.pdf');
+							Material::web('Vetores e Matrizes - PUC', 'http://www.inf.pucrs.br/~pinho/LaproI/Vetores/Vetores.htm');
+							Material::youtube('Programando em C - Aula 09', 'https://www.youtube.com/watch?v=NfC-bn3k2vo');
+							Material::quiz('Quiz online', 'quiz.php?area=vetores');
+						?>
+					</ul>					
+					
+					<!-- Navigation links -->
 					<p class='links'>
 						<a class='pull-left' href='lacos-terativos.php'><i class='fa fa-2x fa-angle-left'></i>Laços Iterativos</a>
 						<a class='pull-right' href='strings.php'>Strings<i class='fa fa-2x fa-angle-right'></i></a>

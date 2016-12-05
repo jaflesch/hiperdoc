@@ -1,8 +1,9 @@
 <?php
 	// includes...
 	require_once "scripts/navigation.php";
+	require_once "scripts/material.php";
 	
-	$page_title = "Página Exemplo 2";
+	$page_title = "Laços Iterativos";
 	include "_view/head.php";
 	
 	$link_navbar = Navigation::get_link('lacos');
@@ -100,21 +101,21 @@ int main()
 
 					<div class="console-header"><img src="_img/console/icon.png"></div>
 					<pre><code class="cpp">
-						#include <stdio.h>
-						#include <stdlib.h>
+	#include <stdio.h>
+	#include <stdlib.h>
 
-						int main()
-						{
-						     int i;
+	int main()
+	{
+	     int i;
 
-						     for(i = 0; i < 5; i++)
-						     {
-						          printf("%d \n", i);
-						          i = 0;
-						     }
+	     for(i = 0; i < 5; i++)
+	     {
+	          printf("%d \n", i);
+	          i = 0;
+	     }
 
-						     return 0;
-						}
+	     return 0;
+	}
 					</code></pre>
 					<pre class="exe">0
 1
@@ -211,6 +212,29 @@ Digite um numero: 4
 				<div class="col-md-12">
 					<h1> 2. Título Seção Par</h1>
 					
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="#nomeSection">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1> Material Complementar </h1>
+					
+					<ul class='material-list'>
+						<?php 
+							Material::pdf('Iteração com for', 'files/10.pdf');
+							Material::pdf('Iteração com while', 'files/11.pdf');
+							Material::web('Comandos de Repetição - PUC', 'http://www.inf.pucrs.br/~pinho/LaproI/ComandosDeRepeticao/Repeticao.html');
+							Material::youtube('Programando em C - Aula 07', 'https://www.youtube.com/watch?v=rCFh-tvoXIc');
+							Material::youtube('Programando em C - Aula 08', 'https://www.youtube.com/watch?v=ZQe-OSF5Txs');
+							Material::quiz('Quiz online', 'quiz.php?area=lacos');
+						?>
+					</ul>					
+					
+					<!-- Navigation links -->
 					<p class='links'>
 						<a class='pull-left' href='switch.php'><i class='fa fa-2x fa-angle-left'></i> Switch</a>
 						<a class='pull-right' href='vetores.php'>Vetores<i class='fa fa-2x fa-angle-right'></i></a>

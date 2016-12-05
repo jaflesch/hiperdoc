@@ -1,11 +1,12 @@
 <?php
 	// includes...
 	require_once "scripts/navigation.php";
+	require_once "scripts/material.php";
 	
-	$page_title = "Página Exemplo 2";
+	$page_title = "Função rand()";
 	include "_view/head.php";
 	
-	$link_navbar = Navigation::get_link('vetores');
+	$link_navbar = Navigation::get_link('rand');
 	include "_view/header.php";
 ?>
 	<!-- HTML Content -->
@@ -39,10 +40,10 @@ void srand(int seed);
 					</code></pre>
 				</div>
 			</div>
-
+			<br/>
 			Embora ela seja importante, esta função apenas prepara a função rand() para seu posterior uso.
 
-			<h1> RAND();
+			<h1> RAND(); </h1>
 
 			<p>Determinado um valor para a semente, podemos finalmente usar a função rand(). Diferentemente da srand(), não precisamos fornecer nenhum valor deparâmetro. Porém, precisamos salvar o valor recebido da função, ou seja, precisamos atribuir a rand() a uma variável!</p>
 
@@ -58,6 +59,7 @@ int rand(void);
 					</code></pre>
 				</div>
 			</div>
+			<br/> 
 
 			<p>Tudo quase pronto para começarmos a programar, só falta um detalhe! Ou melhor, uma biblioteca. Para o correto uso de ambas as funções, precisamos da biblioteca <stdlib>.</p>
 
@@ -88,7 +90,8 @@ int main()
 }
 					</code></pre>
 				</div>
-			</div>			
+			</div>	
+			<br/>		
 			<p>Sem mistérios até aqui, certo? Assimilar essa sintaxe no começo pode ser cansativo, mas com os exemplos abaixo você acaba se acostumando e vê que não é nenhum bicho de sete cabeças!</p>
 		</div>
 	</section>
@@ -98,9 +101,17 @@ int main()
 				<div class="col-md-12">
 					<h1> 2. Título Seção Par</h1>
 					
+					<ul class='material-list'>
+						<?php 
+							Material::pdf('Função rand()', 'files/15.pdf');
+							Material::quiz('Quiz online', 'quiz.php?area=rand');
+						?>
+					</ul>					
+					
+					<!-- Navigation links -->
 					<p class='links'>
-						<a class='pull-left' href='recursao.php'><i class='fa fa-2x fa-angle-left'></i>Recursão</a>
-						<a class='pull-right' href='index.php'>Início<i class='fa fa-2x fa-angle-right'></i></a>
+						<a class='pull-left' href='matrizes.php'><i class='fa fa-2x fa-angle-left'></i> Matrizes </a>
+						<a class='pull-right' href='bubblesort.php'> Bubblesort <i class='fa fa-2x fa-angle-right'></i></a>
 					</p>
 				</div>
 			</div>

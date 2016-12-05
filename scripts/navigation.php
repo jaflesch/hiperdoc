@@ -102,7 +102,7 @@ class Navigation {
 					<i class='fa fa-2x fa-angle-left'></i>
 				</a>
 				<span class='navbar-vhr'></span>
-				<a class='navbar-brand' href='funcao-rand.php'>
+				<a class='navbar-brand' href='rand.php'>
 					<i class='fa fa-2x fa-angle-right'></i>
 				</a>
 				<span class='navbar-description'> 8. Matrizes </span>
@@ -120,7 +120,7 @@ class Navigation {
 				");				
 			case 'bubblesort':
 				return utf8_encode(
-				"<a class='navbar-brand' href='funcao-rand.php'>
+				"<a class='navbar-brand' href='rand.php'>
 					<i class='fa fa-2x fa-angle-left'></i>
 				</a>
 				<span class='navbar-vhr'></span>

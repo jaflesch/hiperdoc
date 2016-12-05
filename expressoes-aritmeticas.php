@@ -3,7 +3,7 @@
 	require_once "scripts/navigation.php";
 	require_once "scripts/material.php";
 	
-	$page_title = "Página Exemplo 2";
+	$page_title = "Expressões Aritméticas";
 	include "_view/head.php";
 	
 	$link_navbar = Navigation::get_link('exparit');
@@ -452,13 +452,11 @@
 					
 					<ul class='material-list'>
 						<?php 
-							Material::pdf('Arquivo PDF', 'files/nome_topico/nome_arquivo.pdf');
-							Material::web('Página Web', 'files/nome_topico/nome_arquivo.pdf');
-							Material::ppt('Arquivo PowerPoint', 'files/nome_topico/nome_arquivo.pdf');
-							Material::doc('Arquivo Word', 'files/nome_topico/nome_arquivo.pdf');
-							Material::youtube('Vídeo', 'files/nome_topico/nome_arquivo.pdf');
-							Material::quiz('Quiz online', 'quiz.php?area=introducao');
-							Material::home('Arquivo com exercícios + gabaritos', 'files/nome_topico/nome_arquivo.pdf');
+							Material::pdf('Comandos de Atribuição', 'files/04.pdf');
+							Material::pdf('Expressões Aritméticas Avançadas', 'files/05.pdf');
+							Material::pdf('Fluxogramas', 'files/06.pdf');
+							Material::youtube('Programando em C - Aula 3', 'https://www.youtube.com/watch?v=zzJl4q46DQM');
+							Material::quiz('Quiz online', 'quiz.php?area=expressoes-aritmeticas');
 						?>
 					</ul>					
 					

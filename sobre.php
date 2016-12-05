@@ -3,7 +3,7 @@
 	require_once "scripts/navigation.php";
 	require_once "scripts/material.php";
 	
-	$page_title = "Página Exemplo";
+	$page_title = "Sobre";
 	include "_view/head.php";
 	
 	$link_navbar = Navigation::get_link('exemplo');

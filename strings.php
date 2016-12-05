@@ -1,8 +1,9 @@
 <?php
 	// includes...
 	require_once "scripts/navigation.php";
+	require_once "scripts/material.php";
 	
-	$page_title = "Página Exemplo 2";
+	$page_title = "Strings";
 	include "_view/head.php";
 	
 	$link_navbar = Navigation::get_link('strings');
@@ -83,9 +84,18 @@
 				<div class="col-md-12">
 					<h1> 2. Título Seção Par</h1>
 					
+					<ul class='material-list'>
+						<?php 
+							Material::pdf('Strings', 'files/13.pdf');
+							Material::youtube('Programando em C - Aula 11', 'https://www.youtube.com/watch?v=L4IYcJSoH3M');
+							Material::quiz('Quiz online', 'quiz.php?area=strings');
+						?>
+					</ul>					
+					
+					<!-- Navigation links -->
 					<p class='links'>
-						<a class='pull-left' href='index.php'><i class='fa fa-2x fa-angle-left'></i> Título tópico anterior</a>
-						<a class='pull-right' href='exemplo-2.php'>Título próximo tópico <i class='fa fa-2x fa-angle-right'></i></a>
+						<a class='pull-left' href='vetores.php'><i class='fa fa-2x fa-angle-left'></i> Vetores </a>
+						<a class='pull-right' href='matrizes.php'> Matrizes <i class='fa fa-2x fa-angle-right'></i></a>
 					</p>
 				</div>
 			</div>

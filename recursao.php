@@ -1,8 +1,9 @@
 <?php
 // includes...
 require_once "scripts/navigation.php";
+require_once "scripts/material.php";
 
-$page_title = "Página Exemplo 2";
+$page_title = "Recursão";
 include "_view/head.php";
 
 $link_navbar = Navigation::get_link('recursao');
@@ -63,9 +64,18 @@ double fatorial(int n)
             <div class="col-md-12">
                 <h1> 2. Título Seção Par</h1>
 
+                <ul class='material-list'>
+                  <?php 
+                    Material::pdf('Recursão', 'files/20.pdf');
+                    Material::pdf('Recursão 2', 'files/21.pdf');
+                    Material::quiz('Quiz online', 'quiz.php?area=recursao');
+                  ?>
+                </ul>         
+                
+                <!-- Navigation links -->
                 <p class='links'>
-                    <a class='pull-left' href='index.php'><i class='fa fa-2x fa-angle-left'></i> Título tópico anterior</a>
-                    <a class='pull-right' href='exemplo-2.php'>Título próximo tópico <i class='fa fa-2x fa-angle-right'></i></a>
+                    <a class='pull-left' href='funcoes.php'><i class='fa fa-2x fa-angle-left'></i> Funções </a>
+                    <a class='pull-right' href='index.php'> Home <i class='fa fa-2x fa-angle-right'></i></a>
                 </p>
             </div>
         </div>

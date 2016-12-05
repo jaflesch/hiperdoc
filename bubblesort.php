@@ -1,8 +1,9 @@
 <?php
 	// includes...
 	require_once "scripts/navigation.php";
+	require_once "scripts/material.php";
 	
-	$page_title = "Página Exemplo 2";
+	$page_title = "Bubblesort";
 	include "_view/head.php";
 	
 	$link_navbar = Navigation::get_link('bubblesort');
@@ -83,9 +84,19 @@
 				<div class="col-md-12">
 					<h1> 2. Título Seção Par</h1>
 					
+					<ul class='material-list'>
+						<?php 
+							Material::pdf('Bubblesort', 'files/16.pdf');
+							Material::youtube('Bubblesort with Hungarian Folk dance', 'https://www.youtube.com/watch?v=lyZQPjUT5B4');
+							Material::youtube('Comparação entre métodos de ordenação', 'https://www.youtube.com/watch?v=ZZuD6iUe3Pc');
+							Material::quiz('Quiz online', 'quiz.php?area=bubblesort');
+						?>
+					</ul>					
+					
+					<!-- Navigation links -->
 					<p class='links'>
-						<a class='pull-left' href='index.php'><i class='fa fa-2x fa-angle-left'></i> Título tópico anterior</a>
-						<a class='pull-right' href='exemplo-2.php'>Título próximo tópico <i class='fa fa-2x fa-angle-right'></i></a>
+						<a class='pull-left' href='rand.php'><i class='fa fa-2x fa-angle-left'></i> Função rand() </a>
+						<a class='pull-right' href='funcoes.php'> Funções <i class='fa fa-2x fa-angle-right'></i></a>
 					</p>
 				</div>
 			</div>

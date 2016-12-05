@@ -3,7 +3,7 @@
 	require_once "scripts/navigation.php";
 	require_once "scripts/material.php";
 
-	$page_title = "Página Exemplo 2";
+	$page_title = "Switch";
 	include "_view/head.php";
 	
 	$link_navbar = Navigation::get_link('switch');
@@ -765,13 +765,8 @@
 					
 					<ul class='material-list'>
 						<?php 
-							Material::pdf('Arquivo PDF', 'files/nome_topico/nome_arquivo.pdf');
-							Material::web('Página Web', 'files/nome_topico/nome_arquivo.pdf');
-							Material::ppt('Arquivo PowerPoint', 'files/nome_topico/nome_arquivo.pdf');
-							Material::doc('Arquivo Word', 'files/nome_topico/nome_arquivo.pdf');
-							Material::youtube('Vídeo', 'files/nome_topico/nome_arquivo.pdf');
-							Material::quiz('Quiz online', 'quiz.php?area=introducao');
-							Material::home('Arquivo com exercícios + gabaritos', 'files/nome_topico/nome_arquivo.pdf');
+							Material::pdf('Seleção Múltipla com Switch', 'files/09.pdf');
+							Material::quiz('Quiz online', 'quiz.php?area=switch');
 						?>
 					</ul>					
 					

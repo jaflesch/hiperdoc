@@ -1,8 +1,9 @@
 <?php
 // includes...
 require_once "scripts/navigation.php";
+require_once "scripts/material.php";
 
-$page_title = "Página Exemplo 2";
+$page_title = "Funções";
 include "_view/head.php";
 
 $link_navbar = Navigation::get_link('funcoes');
@@ -125,9 +126,24 @@ int main(void)
             <div class="col-md-12">
                 <h1> 2. Título Seção Par</h1>
 
+                <ul class='material-list'>
+                <?php 
+                  Material::pdf('Funções', 'files/17.pdf');
+                  Material::pdf('Funções e Ponteiros', 'files/18.pdf');
+                  Material::pdf('Funções com Ponteiros', 'files/19.pdf');
+                  Material::web('Funções com Ponteiros', 'http://www.inf.pucrs.br/~pinho/LaproI/Funcoes/AulaDeFuncoes.htm');
+                  Material::youtube('Programando em C - Aula 12', 'https://www.youtube.com/watch?v=T5_q2UIsSgk');
+                  Material::youtube('Programando em C - Aula 13', 'https://www.youtube.com/watch?v=BdMpYXJ8AuE');
+                  Material::youtube('Programando em C - Aula 14', 'https://www.youtube.com/watch?v=2W3yDLTTLWg');
+                  Material::youtube('Programando em C - Aula 15', 'https://www.youtube.com/watch?v=w6Wrw4SQn8E');
+                  Material::quiz('Quiz online', 'quiz.php?area=funcoes');
+                ?>
+              </ul>         
+              
+              <!-- Navigation links -->
                 <p class='links'>
-                    <a class='pull-left' href='index.php'><i class='fa fa-2x fa-angle-left'></i> Título tópico anterior</a>
-                    <a class='pull-right' href='exemplo-2.php'>Título próximo tópico <i class='fa fa-2x fa-angle-right'></i></a>
+                    <a class='pull-left' href='bubblesort.php'><i class='fa fa-2x fa-angle-left'></i> Bubblesort</a>
+                    <a class='pull-right' href='recursao.php'> Recursão <i class='fa fa-2x fa-angle-right'></i></a>
                 </p>
             </div>
         </div>

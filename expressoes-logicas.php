@@ -892,13 +892,11 @@
 					
 					<ul class='material-list'>
 						<?php 
-							Material::pdf('Arquivo PDF', 'files/nome_topico/nome_arquivo.pdf');
-							Material::web('Página Web', 'files/nome_topico/nome_arquivo.pdf');
-							Material::ppt('Arquivo PowerPoint', 'files/nome_topico/nome_arquivo.pdf');
-							Material::doc('Arquivo Word', 'files/nome_topico/nome_arquivo.pdf');
-							Material::youtube('Vídeo', 'files/nome_topico/nome_arquivo.pdf');
-							Material::quiz('Quiz online', 'quiz.php?area=introducao');
-							Material::home('Arquivo com exercícios + gabaritos', 'files/nome_topico/nome_arquivo.pdf');
+							Material::pdf('Algoritmos com Seleção', 'files/07..pdf');
+							Material::pdf('Algoritmos com Seleção (continuação)', 'files/08..pdf');
+							Material::web('Operadores de Decisão - PUC', 'http://www.inf.pucrs.br/~pinho/LaproI/ComandosDeDecisao/Decisao.htm');
+							Material::youtube('Programando em C - Aula 05', 'https://www.youtube.com/watch?v=v8jjhTxgJsU');
+							Material::quiz('Quiz online', 'quiz.php?area=expressoes-logicas');
 						?>
 					</ul>					
 					

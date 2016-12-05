@@ -518,7 +518,7 @@ pre code { }
 	height: 150px;
 	margin: 0 auto;
 }
-#index-03 .things td:hover > #bubb, #index-03 .things td:hover  a {
+#index-03 .things td:hover #bubb, #index-03 .things td:hover  a {
 	background-image: url("../_img/bubb_icon2.svg");
 	width: 150px;
 	height: 150px;
@@ -529,7 +529,7 @@ pre code { }
 	height: 150px;
 	margin: 0 auto;
 }
-#index-03 .things td:hover > #fnc, #index-03 .things td:hover  a {
+#index-03 .things td:hover #fnc, #index-03 .things td:hover  a {
 	background-image: url("../_img/fnc_icon2.svg");
 	width: 150px;
 	height: 150px;
@@ -573,7 +573,7 @@ pre code { }
 	height: 150px;
 	margin: 0 auto;
 }
-#index-03 .things td:hover > #rec, #index-03 .things td:hover  a {
+#index-03 .things td:hover #rec, #index-03 .things td:hover  a {
 	background-image: url("../_img/rec_icon2.svg");
 	width: 150px;
 	height: 150px;

@@ -140,7 +140,7 @@
 						</tr>
 					  
 						<tr>
-							<td>
+							<td><a href="strings.php">
 								<div id="str"></div>
 								<h3 class="thing-title">Strings</h3>
 							  
@@ -149,9 +149,9 @@
 									<li>Operações da biblioteca string.h</li>
 									<li>Exemplos</li>
 								</ul>
-							</td>
+							</td></a>
 							
-							<td>
+							<td><a href="matrizes.php">
 								<div id="matr"></div>
 								<h3 class="thing-title">Matrizes</h3>
 							  
@@ -160,7 +160,7 @@
 									<li>Operações</li>
 									<li>Exemplos</li>
 								</ul>
-							</td>
+							</td></a>
 
 							<td>
 								<a href="rand.php">
@@ -175,6 +175,7 @@
 						</tr>
 						<tr>
 							<td>
+								<a href="bubblesort.php">
 								<div id="bubb"></div>
 								<h3 class="thing-title">Bubblesort</h3>
 								
@@ -182,9 +183,9 @@
 									<li>Classificação de Dados</li>
 									<li>Algoritmo Bubblesort</li>
 									<li>Bubblesort otimizado</li>
-								</ul>
+								</ul></a>
 							</td>
-							<td>
+							<td><a href="funcoes.php">
 								<div id="fnc"></div>
 								<h3 class="thing-title">Funções</h3>
 							  
@@ -192,8 +193,8 @@
 									<li>Funções sem retorno</li>
 									<li>Funções com retorno</li>
 								</ul>
-							</td>
-							<td>
+							</td></a>
+							<td><a href="recursao.php">
 								<div id="rec"></div>
 								<h3 class="thing-title">Recursão</h3>
 							  
@@ -201,7 +202,7 @@
 									<li>Declaração</li>
 									<li>Exemplos</li>
 								</ul>
-							</td>							
+							</td></a>					
 						</tr>
 					</table>
 				</div>

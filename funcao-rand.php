@@ -2,7 +2,7 @@
 	// includes...
 	require_once "scripts/navigation.php";
 	
-	$page_title = "Página Exemplo 2";
+	$page_title = "Função rand()";
 	include "_view/head.php";
 	
 	$link_navbar = Navigation::get_link('rand');
