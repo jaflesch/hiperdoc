@@ -16,12 +16,12 @@
 				<div class="col-md-12">
 					<h1> Bubblesort </h1>
 
-                                            <p> 
-    O bubblesort é um algoritmo simples de ordenação que varre a lista a ser ordenada repetidas vezes, comparando pares de 
-    itens adjacentes e trocando-os caso estejam na ordem errada. A lista é varrida
-    até que não haja mais trocas a serem feitas. Ele tem esse nome por causa da maneira que os
-    números menores "borbulham" para o início da lista. Embora seja simples, ele é um algoritmo lento e 
-    impraticável para a maioria dos problemas. Abaixo temos um exemplo de um problema que faz bubblesort.
+                                        <p> 
+                                            O bubblesort é um algoritmo simples de ordenação que varre a lista a ser ordenada repetidas vezes, comparando pares de 
+                                            itens adjacentes e trocando-os caso estejam na ordem errada. A lista é varrida
+                                            até que não haja mais trocas a serem feitas. Ele tem esse nome por causa da maneira que os
+                                            números menores "borbulham" para o início da lista. Embora seja simples, ele é um algoritmo lento e 
+                                            impraticável para a maioria dos problemas. Abaixo temos um exemplo de um problema que faz bubblesort.
 					</p>
 
 				</div>
@@ -77,7 +77,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1> 2. Título Seção Par</h1>
+					<h1> Material complementar </h1>
 					
 					<ul class='material-list'>
 						<?php 
