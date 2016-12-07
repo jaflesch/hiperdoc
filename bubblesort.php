@@ -14,40 +14,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1> 1. Título Seção Ímpar</h1>
-					<h2> 1.1. Título Subseção </h2>
-					<p> 
-						Lorem ipsum dolor sit amet, lobortis delicata in vel, te pri eruditi contentiones. Te nam suscipit explicari. 
-						Option mediocrem no eam. Vix ea magna doctus similique, ei vix vero theophrastus.
-						Commodo gloriatur mei id. Ne eos diam graeci persius, elit graeci an eos. Ex affert facilisis pri, 
-						vix oratio doming verterem ut. Te eos possim volumus, nullam possim menandri nec id, cum mandamus 
-						inimicus no. Nam an habeo graece, ei tota dicant est. Consul disputationi his ea, vim saperet consetetur ea. 
-						In duo utamur explicari. No aliquam consectetuer vis. In corpora suscipiantur his, id discere mandamus pro. 
-						Eruditi assentior repudiandae id usu, appareat incorrupte honestatis et sit. Per cu offendit atomorum, pro 
-						id deleniti placerat suavitate, pri te quas inermis vituperata. Cum noster aperiam in. Vix ne conceptam 
-						scriptorem. Eam ea ponderum ocurreret, vix te facete luptatum theophrastus. Cu inermis detraxit deserunt pro. 
-						No pro case iracundia evertitur, quo an summo atomorum. Graece consetetur sea id, ex eam regione legimus nostrum. 
-						Id mea augue albucius perfecto, vix cibo sensibus at.
+					<h1> Bubblesort </h1>
+
+                                        <p> 
+                                            O bubblesort é um algoritmo simples de ordenação que varre a lista a ser ordenada repetidas vezes, comparando pares de 
+                                            itens adjacentes e trocando-os caso estejam na ordem errada. A lista é varrida
+                                            até que não haja mais trocas a serem feitas. Ele tem esse nome por causa da maneira que os
+                                            números menores "borbulham" para o início da lista. Embora seja simples, ele é um algoritmo lento e 
+                                            impraticável para a maioria dos problemas. Abaixo temos um exemplo de um problema que faz bubblesort.
 					</p>
-					
-					<h2> 1.2. Textos </h2>
-					<p> 
-						<strong>Texto em negrito</strong>.<br/>
-						Texto com destaque para sintaxes da linguagem... ex.: <em>for</em>, <em>int</em>, <em>return</em>...  <br/>
-						
-						Lorem ipsum dolor sit amet, lobortis delicata in vel, te pri eruditi contentiones. Te nam suscipit explicari. 
-						Option mediocrem no eam. Vix ea magna doctus similique, ei vix vero theophrastus.
-						Commodo gloriatur mei id. Ne eos diam graeci persius, elit graeci an eos. Ex affert facilisis pri, 
-						vix oratio doming verterem ut. Te eos possim volumus, nullam possim menandri nec id, cum mandamus 
-						inimicus no. Nam an habeo graece, ei tota dicant est. Consul disputationi his ea, vim saperet consetetur ea. 
-						In duo utamur explicari. No aliquam consectetuer vis. In corpora suscipiantur his, id discere mandamus pro. 
-						Eruditi assentior repudiandae id usu, appareat incorrupte honestatis et sit. Per cu offendit atomorum, pro 
-						id deleniti placerat suavitate, pri te quas inermis vituperata. Cum noster aperiam in. Vix ne conceptam 
-						scriptorem. Eam ea ponderum ocurreret, vix te facete luptatum theophrastus. Cu inermis detraxit deserunt pro. 
-						No pro case iracundia evertitur, quo an summo atomorum. Graece consetetur sea id, ex eam regione legimus nostrum. 
-						Id mea augue albucius perfecto, vix cibo sensibus at.
-					</p>
-					<h2> 1.2. Subtítulo </h2>
+
 				</div>
 			</div>
 			<div class="row">
@@ -56,22 +32,41 @@
 		
 					<div class="console-header"><img src="_img/console/icon.png"></div>
 					<pre><code class="cpp">
-	// o código nem compila, mas é só pra mostrar a syntax highlighting mesmo 
-	#include &lt;foo.bar&gt;
-	#define a c
-	
-	int main(char args[]) {
 
-		int i = 0;
-		printf("%d", i + '5');
-		
-		int a = foo(bar);
-		a++;
-		while(i == true);
-		
-		// teste (a formatação fica toda cagada no arquivo html para trechos de código btw) :/
-		return 0;
-	}
+	#include &lt;stdio.bar&gt;
+
+        int main()
+        {
+          int array[100], n, c, d, swap;
+
+          printf("Enter number of elements\n");
+          scanf("%d", &n);
+
+          printf("Enter %d integers\n", n);
+
+          for (c = 0; c < n; c++)
+            scanf("%d", &array[c]);
+
+          for (c = 0 ; c < ( n - 1 ); c++)
+          {
+            for (d = 0 ; d < n - c - 1; d++)
+            {
+              if (array[d] > array[d+1]) /* For decreasing order use < */
+              {
+                swap       = array[d];
+                array[d]   = array[d+1];
+                array[d+1] = swap;
+              }
+            }
+          }
+
+          printf("Sorted list in ascending order:\n");
+
+          for ( c = 0 ; c < n ; c++ )
+             printf("%d\n", array[c]);
+
+          return 0;
+        }
 					</code></pre>
 					<pre class="exe">	Tela para exibir resultados do printf() </pre>
 				</div>
@@ -82,7 +77,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1> 2. Título Seção Par</h1>
+					<h1> Material complementar </h1>
 					
 					<ul class='material-list'>
 						<?php 
