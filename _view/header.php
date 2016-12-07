@@ -2,7 +2,7 @@
 	<div id="wrapper">
 		<header>
 		
-			<nav class='navbar navbar-default navbar-fixed-top navbar-skin'>
+			<nav class='navbar navbar-default navbar-fixed-top navbar-skin' id='p-header'>
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
@@ -13,14 +13,15 @@
 							<span class="icon-bar"></span>
 						</button>
 						
-						<?php echo $link_navbar; ?>
+						<?php echo $link_navbar == "tour" ? "" : $link_navbar; ?>
 					</div>
 
 					<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li id='scrollTop'><a title="" href="#"> Topo </a></li>
-							<li><a title="" href="sobre.php"> Sobre </a></li>
-							<li class="dropdown" href="#topicos">
+							<li<?php echo $link_navbar == "tour" ? ' style="background: #000;"' : ''; ?>>
+								<a title="" href="tour.php"><?php echo $link_navbar == "tour" ? ' Você está no Tour!' : 'Explore o site!'; ?></a></li>
+							<li id='p-areas' class="dropdown" href="#topicos">
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
 									Área 01 <span class="caret"></span>
 								</a>
@@ -48,7 +49,7 @@
 									
 								</ul>
 							</li>
-							<li><a title="" href="#contato"> Exercícios Resolvidos </a></li>
+							<li id='p-sobre'><a title="" href="sobre.php"> Sobre </a></li>
 						</ul>
 					</div>
 				</div>

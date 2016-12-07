@@ -589,3 +589,6 @@ pre code { }
 	width: 150px;
 	height: 150px;
 }
+.popover {
+	width: 500px !important;
+}

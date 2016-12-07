@@ -50,7 +50,8 @@
 
 		<!-- Css -->
 		<link rel="stylesheet" type="text/css" href="_css/vendor/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="_css/vendor/bootstrap-theme.min.css" />
+		
+		<link rel="stylesheet" type="text/css" href="_css/vendor/bootstrap-tour.css" />		
 		<link rel="stylesheet" type="text/css" href="_css/vendor/font-awesome.css" />
 		<link rel="stylesheet" type="text/css" href="_css/vendor/slick.css" />
 		<link rel="stylesheet" type="text/css" href="_css/vendor/slick-theme.css" />		
@@ -60,6 +61,7 @@
 		<!-- JS core -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script type="text/javascript" src="_js/vendor/bootstrap.min.js"></script>
+		<script type="text/javascript" src="_js/vendor/bootstrap-tour.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
 		<script>hljs.initHighlightingOnLoad();</script>
 		<script> 

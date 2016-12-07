@@ -151,7 +151,7 @@ class Navigation {
 				</a>
 				<span class='navbar-description'> 12. Recursão </span>
 				");
-			
+			case 'tour': return '';
 
 			// customize for every page...
 		}
