@@ -308,85 +308,85 @@
 			steps: [
 			{
 				element: "#p-header",
-				title: "Tour pelo Site (Etapa 1 de xyz)",
+				title: "Tour pelo Site (Etapa 1 de 14)",
 				content: "Nesta barra horizontal em vermelho você terá um menu de acesso rápido às seções deste site.",
 				placement: 'bottom'
 			},
 			{
 				element: "#scrollTop",
-				title: "Tour pelo Site (Etapa 2 de xyz)",
+				title: "Tour pelo Site (Etapa 2 de 14)",
 				content: "Ao clicar no link <strong>Topo</strong>, você retorna ao topo da página!",
 				placement: 'bottom'
 			},
 			{
 				element: "#p-areas",
-				title: "Tour pelo Site (Etapa 3 de xyz)",
+				title: "Tour pelo Site (Etapa 3 de 14)",
 				content: "Nos links <strong>Área 01</strong> e <strong>Área 02</strong> existe um menu que, ao ser clicado, exibe uma lista de assuntos. Selecione um destes para conferir a página com o material desejado.",
 				placement: 'bottom'
 			},
 			{
 				element: "#p-sobre",
-				title: "Tour pelo Site (Etapa 4 de xyz)",
+				title: "Tour pelo Site (Etapa 4 de 14)",
 				content: "Clicando no link <strong>Sobre</strong>, você irá à página com informações sobre os autores deste site.",
 				placement: 'bottom'
 			},
 			{
 				element: "#presentation",
-				title: "Tour pelo Site (Etapa 5 de xyz)",
+				title: "Tour pelo Site (Etapa 5 de 14)",
 				content: "Nesta seção há um texto introdutório com a proposta do trabalho desenvolvido.",
 				placement: 'top'
 			},
 			{
 				element: "#index-03",
-				title: "Tour pelo Site (Etapa 6 de xyz)",
+				title: "Tour pelo Site (Etapa 6 de 14)",
 				content: "Na seção <strong>Apostila</strong>, está o coração do site. Aqui você encontra uma tabela com blocos referentes aos capítulos da apostila. Clique num de seu interesse para abrir a página com o conteúdo selecionado.",
 				placement: 'top'
 			},
 			{
 				element: "#intro",
-				title: "Tour pelo Site (Etapa 7 de xyz)",
+				title: "Tour pelo Site (Etapa 7 de 14)",
 				content: "Por exemplo, se você clicar no bloco <strong>Introdução</strong>, você irá para a página de introdutória da apostila!",
 				placement: 'right'
 			},
 			{
 				element: "#p-intro",
-				title: "Tour pelo Site (Etapa 8 de xyz)",
+				title: "Tour pelo Site (Etapa 8 de 14)",
 				content: "Ao entrarmos em uma página da apostila. Podemos ver os <strong>subtítulos</strong> dos capítulos...",
 				placement: 'top'
 			},
 			{
 				element: "#p-content-topic",
-				title: "Tour pelo Site (Etapa 9 de xyz)",
+				title: "Tour pelo Site (Etapa 9 de 14)",
 				content: "... E os <strong>conteúdos</strong> destes!",
 				placement: 'top'
 			},
 			{
 				element: "#console",
-				title: "Tour pelo Site (Etapa 10 de xyz)",
+				title: "Tour pelo Site (Etapa 10 de 14)",
 				content: "A ferramenta de console serve para simular esteticamente a sintaxe do código com hightlight nas palavras-chave da linguagem e facilitar a compreensão da construção da linguagem!",
 				placement: 'top'
 			},
 			{
 				element: "#console-exe",
-				title: "Tour pelo Site (Etapa 11 de xyz)",
+				title: "Tour pelo Site (Etapa 11 de 14)",
 				content: "E, além disso, quando o programa imprime uma saída, também simulamos através deste console mais escuro, em alusão aos antigos sistemas DOS.",
 				placement: 'bottom'
 			},
 			{
 				element: "#material-listtt",
-				title: "Tour pelo Site (Etapa 12 de xyz)",
+				title: "Tour pelo Site (Etapa 12 de 14)",
 				content: "Ao final de cada capítulo da apostila, você encontra uma lista de materiais disponíveis para consulta. Podem ser arquivos em PDF, vídeos no YouTube, páginas web e até mesmo um questionário online com perguntas criadas pelos autores do projeto!",
 				placement: 'top'
 			},
 			{
 				element: "#lprev",
-				title: "Tour pelo Site (Etapa 13 de xyz)",
+				title: "Tour pelo Site (Etapa 13 de 14)",
 				content: "Para faciltar a navegação, você pode clicar no botão à esquerda para retornar ao capítulo anterior...",
 				placement: 'right'
 			},
 			{
 				element: "#lnext",
-				title: "Tour pelo Site (Etapa 14 de xyz)",
+				title: "Tour pelo Site (Etapa 14 de 14)",
 				content: "... Ou clicar no botão à direita para avançar até o próximo!",
 				placement: 'left'
 			}
