@@ -1,105 +1,135 @@
 <?php
-	// includes...
-	require_once "scripts/navigation.php";
-	require_once "scripts/material.php";
-	
-	$page_title = "Strings";
-	include "_view/head.php";
-	
-	$link_navbar = Navigation::get_link('strings');
-	include "_view/header.php";
-?>
-	<!-- HTML Content -->
-	<section id="#nomeSection">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1> 1. Título Seção Ímpar</h1>
-					<h2> 1.1. Título Subseção </h2>
-					<p> 
-						Lorem ipsum dolor sit amet, lobortis delicata in vel, te pri eruditi contentiones. Te nam suscipit explicari. 
-						Option mediocrem no eam. Vix ea magna doctus similique, ei vix vero theophrastus.
-						Commodo gloriatur mei id. Ne eos diam graeci persius, elit graeci an eos. Ex affert facilisis pri, 
-						vix oratio doming verterem ut. Te eos possim volumus, nullam possim menandri nec id, cum mandamus 
-						inimicus no. Nam an habeo graece, ei tota dicant est. Consul disputationi his ea, vim saperet consetetur ea. 
-						In duo utamur explicari. No aliquam consectetuer vis. In corpora suscipiantur his, id discere mandamus pro. 
-						Eruditi assentior repudiandae id usu, appareat incorrupte honestatis et sit. Per cu offendit atomorum, pro 
-						id deleniti placerat suavitate, pri te quas inermis vituperata. Cum noster aperiam in. Vix ne conceptam 
-						scriptorem. Eam ea ponderum ocurreret, vix te facete luptatum theophrastus. Cu inermis detraxit deserunt pro. 
-						No pro case iracundia evertitur, quo an summo atomorum. Graece consetetur sea id, ex eam regione legimus nostrum. 
-						Id mea augue albucius perfecto, vix cibo sensibus at.
-					</p>
-					
-					<h2> 1.2. Textos </h2>
-					<p> 
-						<strong>Texto em negrito</strong>.<br/>
-						Texto com destaque para sintaxes da linguagem... ex.: <em>for</em>, <em>int</em>, <em>return</em>...  <br/>
-						
-						Lorem ipsum dolor sit amet, lobortis delicata in vel, te pri eruditi contentiones. Te nam suscipit explicari. 
-						Option mediocrem no eam. Vix ea magna doctus similique, ei vix vero theophrastus.
-						Commodo gloriatur mei id. Ne eos diam graeci persius, elit graeci an eos. Ex affert facilisis pri, 
-						vix oratio doming verterem ut. Te eos possim volumus, nullam possim menandri nec id, cum mandamus 
-						inimicus no. Nam an habeo graece, ei tota dicant est. Consul disputationi his ea, vim saperet consetetur ea. 
-						In duo utamur explicari. No aliquam consectetuer vis. In corpora suscipiantur his, id discere mandamus pro. 
-						Eruditi assentior repudiandae id usu, appareat incorrupte honestatis et sit. Per cu offendit atomorum, pro 
-						id deleniti placerat suavitate, pri te quas inermis vituperata. Cum noster aperiam in. Vix ne conceptam 
-						scriptorem. Eam ea ponderum ocurreret, vix te facete luptatum theophrastus. Cu inermis detraxit deserunt pro. 
-						No pro case iracundia evertitur, quo an summo atomorum. Graece consetetur sea id, ex eam regione legimus nostrum. 
-						Id mea augue albucius perfecto, vix cibo sensibus at.
-					</p>
-					<h2> 1.2. Subtítulo </h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<h1> Exemplo </h1>
-		
-					<div class="console-header"><img src="_img/console/icon.png"></div>
-					<pre><code class="cpp">
-	// o código nem compila, mas é só pra mostrar a syntax highlighting mesmo 
-	#include &lt;foo.bar&gt;
-	#define a c
-	
-	int main(char args[]) {
+// includes...
+require_once "scripts/navigation.php";
+require_once "scripts/material.php";
 
-		int i = 0;
-		printf("%d", i + '5');
-		
-		int a = foo(bar);
-		a++;
-		while(i == true);
-		
-		// teste (a formatação fica toda cagada no arquivo html para trechos de código btw) :/
-		return 0;
-	}
+$page_title = "Strings";
+include "_view/head.php";
+
+$link_navbar = Navigation::get_link('strings');
+include "_view/header.php";
+?>
+<!-- HTML Content -->
+<section id="#nomeSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1> Strings </h1>
+                <p> 
+Na programação de computadores, uma cadeia de caracteres ou string é uma sequência de caracteres, 
+geralmente utilizada para representar palavras, frases ou textos de um programa.
+
+Nas maioria das linguagens de programação, as cadeias de caracteres podem ser expressas tanto na forma literal, 
+como através de algum tipo de variável. Quando expressos através de variáveis, o conteúdo da cadeia geralmente pode ser alterado pela da inclusão/exclusão de elementos ou pela da substituição de seus elementos por outros elementos, formando uma nova cadeia. Assim, uma cadeia de caracteres é vista como sendo um tipo de dado e normalmente é implementada através de um arranjo de bytes que armazena os elementos da cadeia em sequência, utilizando alguma codificação preestabelecida.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1> Exemplo </h1>
+
+                <div class="console-header"><img src="_img/console/icon.png"></div>
+                <pre><code class="cpp">
+int main(int, char **) 
+{ 
+    char ola[4];
+ 
+    ola[0] = 'o'; 
+    ola[1] = 'l'; 
+    ola[2] = 'a'; 
+    ola[3] = 0;
+ 
+    printf(ola);
+ 
+    return 0; 
+}
 					</code></pre>
-					<pre class="exe">	Tela para exibir resultados do printf() </pre>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="#nomeSection">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1> 2. Título Seção Par</h1>
-					
-					<ul class='material-list'>
-						<?php 
-							Material::pdf('Strings', 'files/13.pdf');
-							Material::youtube('Programando em C - Aula 11', 'https://www.youtube.com/watch?v=L4IYcJSoH3M');
-							Material::quiz('Quiz online', 'quiz.php?area=strings');
-						?>
-					</ul>					
-					
-					<!-- Navigation links -->
-					<p class='links'>
-						<a class='pull-left' href='vetores.php'><i class='fa fa-2x fa-angle-left'></i> Vetores </a>
-						<a class='pull-right' href='matrizes.php'> Matrizes <i class='fa fa-2x fa-angle-right'></i></a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	
+                <pre class="exe"> ola </pre>
+                </br>
+
+                <p>
+                    Exemplo que conta o número de caracteres da entrada.
+                </p>
+                <div class="console-header"><img src="_img/console/icon.png"></div>
+                <pre><code class="cpp">
+
+int contaChar(const char *str) 
+{ 
+    int i = 0;
+ 
+    for(;str[i] != 0; ++i);
+ 
+    return i; 
+}
+ 
+int main(int, char **) 
+{ 
+    char ola[] = "ola";
+ 
+    printf("A string %s possui %d caracteres\n", ola, contaChar(ola));
+ 
+    
+					</code></pre>
+                </br>
+                <p>
+                    Exemplo que compara duas strings.
+                </p>
+                <div class="console-header"><img src="_img/console/icon.png"></div>
+                <pre><code class="cpp">
+
+bool saoIguais(const char *s1, const char *s2) 
+{         
+    for(int i = 0;s1[i] == s2[i]; ++i) 
+    {                 
+        if(s1[i] == 0) 
+            return true; 
+    } 
+    return false; 
+}
+ 
+int main(int, char **) 
+{ 
+    char ola[] = "ola"; 
+    char ola2[] = "ola";
+ 
+    if(saoIguais(ola, ola2)) 
+        printf("Iguais"); 
+    else
+        printf("Nao sao iguais");
+ 
+    return 0; 
+}
+					</code></pre>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<section id="#nomeSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1> 2. Título Seção Par</h1>
+
+                <ul class='material-list'>
+                    <?php
+                    Material::pdf('Strings', 'files/13.pdf');
+                    Material::youtube('Programando em C - Aula 11', 'https://www.youtube.com/watch?v=L4IYcJSoH3M');
+                    Material::quiz('Quiz online', 'quiz.php?area=strings');
+                    ?>
+                </ul>					
+
+                <!-- Navigation links -->
+                <p class='links'>
+                    <a class='pull-left' href='vetores.php'><i class='fa fa-2x fa-angle-left'></i> Vetores </a>
+                    <a class='pull-right' href='matrizes.php'> Matrizes <i class='fa fa-2x fa-angle-right'></i></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php include "_view/footer.php"; ?>
